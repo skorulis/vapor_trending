@@ -1,4 +1,4 @@
-
+docker image prune -a
 
 * CI, deployment
 	- I should try to get what I have running on DO
