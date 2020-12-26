@@ -9,9 +9,8 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true \
     && apt-get -q dist-upgrade -y \
     && apt-get install -y --no-install-recommends \
     libsqlite3-dev \
+    openssh-client \
     && rm -rf /var/lib/apt/lists/*
-    
-
 
 # Set up a build area
 WORKDIR /build

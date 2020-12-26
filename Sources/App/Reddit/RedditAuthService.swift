@@ -1,7 +1,6 @@
 //  Created by Alexander Skorulis on 17/11/20.
 
 import Vapor
-import Secrets
 
 private struct RedditAuthBody: Encodable {
     let username = RedditSecrets.username

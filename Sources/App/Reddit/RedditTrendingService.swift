@@ -1,7 +1,6 @@
 //  Created by Alexander Skorulis on 17/11/20
 
 import Vapor
-import Secrets
 
 struct RedditTrendingResponse: Codable {
     let subreddit_names: [String]

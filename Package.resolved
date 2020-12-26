@@ -128,15 +128,6 @@
         }
       },
       {
-        "package": "Secrets",
-        "repositoryURL": "git@github.com:skorulis/secrets.git",
-        "state": {
-          "branch": "main",
-          "revision": "d40fed41a1aec71d974c31731b936c84925dfcdb",
-          "version": null
-        }
-      },
-      {
         "package": "sql-kit",
         "repositoryURL": "https://github.com/vapor/sql-kit.git",
         "state": {

@@ -1,7 +1,6 @@
 //  Created by Alexander Skorulis on 18/11/20.
 
 import Vapor
-import Secrets
 
 struct TwitterPlace: Codable {
     let name: String
