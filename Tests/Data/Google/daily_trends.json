@@ -1,0 +1,1992 @@
+{
+  "trendingSearchesDays": [
+    {
+      "date": "20201223",
+      "formattedDate": "Wednesday, December 23, 2020",
+      "trendingSearches": [
+        {
+          "title": {
+            "query": "NBA",
+            "exploreLink": "/trends/explore?q=NBA&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "100K+",
+          "relatedQueries": [
+            {
+              "query": "lakers vs clippers",
+              "exploreLink": "/trends/explore?q=lakers+vs+clippers&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "Lakers",
+              "exploreLink": "/trends/explore?q=Lakers&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "LeBron James",
+              "exploreLink": "/trends/explore?q=LeBron+James&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.espn.com.au/nba/insider/story/_/id/30569484/nba-opening-night-our-experts-first-reactions-lakers-clippers-warriors-kevin-durant",
+            "source": "ESPN Australia",
+            "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSqCvphuV1H-6MLL1AJAESNnAIbvaCCVEKWDNILRBiA8vyZSArHBMfarPMNgq6QoTvkyDX0QpKN"
+          },
+          "articles": [
+            {
+              "title": "NBA opening night - Our experts&#39; first reactions to the Lakers ...",
+              "timeAgo": "14h ago",
+              "source": "ESPN Australia",
+              "image": {
+                "newsUrl": "https://www.espn.com.au/nba/insider/story/_/id/30569484/nba-opening-night-our-experts-first-reactions-lakers-clippers-warriors-kevin-durant",
+                "source": "ESPN Australia",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSqCvphuV1H-6MLL1AJAESNnAIbvaCCVEKWDNILRBiA8vyZSArHBMfarPMNgq6QoTvkyDX0QpKN"
+              },
+              "url": "https://www.espn.com.au/nba/insider/story/_/id/30569484/nba-opening-night-our-experts-first-reactions-lakers-clippers-warriors-kevin-durant",
+              "snippet": "The Lakers, Clippers, Nets and Warriors tipped off a new NBA season. Here&#39;s everything that mattered from opening night."
+            },
+            {
+              "title": "&#39;Try drag my name under&#39;: Harden fires back as NBA investigates ...",
+              "timeAgo": "2h ago",
+              "source": "Fox Sports",
+              "image": {
+                "newsUrl": "https://www.foxsports.com.au/basketball/nba/nba-2020-houston-rockets-vs-oklahoma-city-thunder-james-harden-strip-club-photo-covid-violation-contract-tracing-john-wall-demarcus-cousins/news-story/f0fda03e7ce58ec45412085c05cbabf3",
+                "source": "Fox Sports",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcSDgA6xElnjwPMiyKUaiqj1CiFrg7KhEElslw_-r1vPIZEYrzY4JYAvcomzms8rtkQtdf2zr2Rj"
+              },
+              "url": "https://www.foxsports.com.au/basketball/nba/nba-2020-houston-rockets-vs-oklahoma-city-thunder-james-harden-strip-club-photo-covid-violation-contract-tracing-john-wall-demarcus-cousins/news-story/f0fda03e7ce58ec45412085c05cbabf3",
+              "snippet": "The James Harden drama never ends. Video circulated Tuesday of the Rockets star at a Christmas party without a mask on, and ESPN.com reported&nbsp;..."
+            },
+            {
+              "title": "Houston Rockets, NBA reviewing James Harden strip club video ...",
+              "timeAgo": "5h ago",
+              "source": "ESPN Australia",
+              "image": {
+                "newsUrl": "https://www.espn.com.au/nba/story/_/id/30588182/houston-rockets-nba-reviewing-james-harden-strip-club-video-sources-say",
+                "source": "ESPN Australia",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRdqDgrx4b_KoGIpfE-ileaoq1eojbf_leby3swgLbECnpLDzV0Gh9m7Smaj8i1wsweIH_ka1V7"
+              },
+              "url": "https://www.espn.com.au/nba/story/_/id/30588182/houston-rockets-nba-reviewing-james-harden-strip-club-video-sources-say",
+              "snippet": "The Rockets are working with the NBA office to review video of James Harden at a strip club, a source told ESPN&#39;s Tim MacMahon on Wednesday."
+            },
+            {
+              "title": "Lakers receive NBA championship rings",
+              "timeAgo": "17h ago",
+              "source": "7NEWS.com.au",
+              "image": {
+                "newsUrl": "https://7news.com.au/sport/basketball/lakers-receive-nba-championship-rings-c-1823032",
+                "source": "7NEWS.com.au",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcR9IDuacdI1ym2pGSUG2cPX3qM6b7mIsLgr0PHXfDfhsZ_7gT-Pxxa18OQElDss1CGHZuag9l1Y"
+              },
+              "url": "https://7news.com.au/sport/basketball/lakers-receive-nba-championship-rings-c-1823032",
+              "snippet": "The Los Angeles Lakers have received their NBA championship rings in an empty arena because of the coronavirus."
+            },
+            {
+              "title": "Report: NBA, Rockets review of strip club visit puts James Harden&#39;s ...",
+              "timeAgo": "5h ago",
+              "source": "Yahoo Sport Australia",
+              "image": {
+                "newsUrl": "https://au.sports.yahoo.com/nba-rockets-james-harden-strip-club-investigation-covid-19-protocols-season-opener-154708010.html",
+                "source": "Yahoo Sport Australia",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRRD-DecbJEqz6V-FeVdGx3F796nb6oGCKP_Uoj8BtsnCcAJwIzz_aFswoQmnL38ZgUqTuk_D9t"
+              },
+              "url": "https://au.sports.yahoo.com/nba-rockets-james-harden-strip-club-investigation-covid-19-protocols-season-opener-154708010.html",
+              "snippet": "The Houston Rockets and NBA are looking into a video circulating on social media showing James Harden at a strip club, per a report by ESPN&#39;s Tim&nbsp;..."
+            },
+            {
+              "title": "NBA Opening Night: Sights and sounds from Los Angeles Lakers ...",
+              "timeAgo": "17h ago",
+              "source": "Sporting News AU",
+              "image": {
+                "newsUrl": "https://www.sportingnews.com/au/nba/news/sights-and-sounds-from-los-angeles-lakers-ring-2020-ceremony-2020-21-opening-night/1p7wdomx9cthu1d3p517k8ueo9",
+                "source": "Sporting News AU",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQWKWREk9iUaKIpsyAXSYoeJITdOCCLovcqZi-3oVm6nufIZhG04RPVv8IHDkQcNrdxnfXio2pL"
+              },
+              "url": "https://www.sportingnews.com/au/nba/news/sights-and-sounds-from-los-angeles-lakers-ring-2020-ceremony-2020-21-opening-night/1p7wdomx9cthu1d3p517k8ueo9",
+              "snippet": "From historic rings with plenty of symbolism to special virtual introductions from frontline workers and family members of coaches and players, the Lakers had a&nbsp;..."
+            },
+            {
+              "title": "NBA COVID-19 shutdown transformed pandemic into a reality",
+              "timeAgo": "8h ago",
+              "source": "Los Angeles Times",
+              "url": "https://www.latimes.com/sports/story/2020-12-23/coronavirus-shutdown-nba-pandemic-2020-review",
+              "snippet": "The postponement of a March 11 game between the Utah Jazz and Oklahoma City Thunder because of a positive coronavirus test changed the sports world."
+            },
+            {
+              "title": "Paul George powers LA Clippers past Lakers on NBA&#39;s opening night",
+              "timeAgo": "15h ago",
+              "source": "The Guardian",
+              "image": {
+                "newsUrl": "https://www.theguardian.com/sport/2020/dec/23/lakers-clippers-nba-opening-night-nets-warriors",
+                "source": "The Guardian",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQYPY8iwPPAST1vvc6_xf-Bsl07ZsGxC4PhDLqA79KDO2sHTwWkZhbaxNfQgxuufOQ1Zr81NKfN"
+              },
+              "url": "https://www.theguardian.com/sport/2020/dec/23/lakers-clippers-nba-opening-night-nets-warriors",
+              "snippet": "George scores 33 points as Clippers win 116-109 over Lakers &middot; Durant tallies 25 in Nets debut as Brooklyn beats Golden State."
+            },
+            {
+              "title": "Los Angeles Lakers won&#39;t unveil NBA title banner without fans",
+              "timeAgo": "1d ago",
+              "source": "ESPN Australia",
+              "image": {
+                "newsUrl": "https://www.espn.com.au/nba/story/_/id/30583287/los-angeles-lakers-unveil-title-banner-fans",
+                "source": "ESPN Australia",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTltG50hBQGtusuN_67x4Mac3qdZ-TAXs0zHgZmMJAKre1jCIMUbN9mk0ThO2FNxRA0yiUBu2aO"
+              },
+              "url": "https://www.espn.com.au/nba/story/_/id/30583287/los-angeles-lakers-unveil-title-banner-fans",
+              "snippet": "The Lakers won&#39;t unveil their championship banner until fans are allowed to return to the arena."
+            },
+            {
+              "title": "Report: NBA, Rockets Reviewing Video of James Harden at Club",
+              "timeAgo": "3h ago",
+              "source": "Sports Illustrated",
+              "image": {
+                "newsUrl": "https://www.si.com/nba/2020/12/23/james-harden-rockets-video-review",
+                "source": "Sports Illustrated",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcRCbyG6hyVLYvCnwZnxG3_tvzGtpXN_-gtOtRInIitKg58g_jpqavXWZbKHjyKf4uz3uOBJOolI"
+              },
+              "url": "https://www.si.com/nba/2020/12/23/james-harden-rockets-video-review",
+              "snippet": "The Houston Rockets are reportedly working with the NBA office to review a video of James Harden at a club."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=NBA#NBA"
+        },
+        {
+          "title": {
+            "query": "Arsenal",
+            "exploreLink": "/trends/explore?q=Arsenal&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "50K+",
+          "relatedQueries": [
+            {
+              "query": "arsenal vs man. city",
+              "exploreLink": "/trends/explore?q=arsenal+vs+man.+city&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "Carabao Cup",
+              "exploreLink": "/trends/explore?q=Carabao+Cup&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "arsenal vs man city",
+              "exploreLink": "/trends/explore?q=arsenal+vs+man+city&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.foxsports.com.au/football/premier-league/epl-2020-arsenal-vs-chelsea-mikel-arteta-relegation-west-brom-sam-allardyce/news-story/4b89b35c252c955256352e451835019e",
+            "source": "Fox Sports",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcR2BDCxQQ4r6ln9Sxz-T6VrbXWV1D35cWNSnUM8guZ7ujJ1Cia6IhfkFmpIDD4b9SCI_bmR8E1i"
+          },
+          "articles": [
+            {
+              "title": "&#39;Why they are down there&#39;: Rival&#39;s relegation taunt to Arsenal",
+              "timeAgo": "2h ago",
+              "source": "Fox Sports",
+              "image": {
+                "newsUrl": "https://www.foxsports.com.au/football/premier-league/epl-2020-arsenal-vs-chelsea-mikel-arteta-relegation-west-brom-sam-allardyce/news-story/4b89b35c252c955256352e451835019e",
+                "source": "Fox Sports",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcR2BDCxQQ4r6ln9Sxz-T6VrbXWV1D35cWNSnUM8guZ7ujJ1Cia6IhfkFmpIDD4b9SCI_bmR8E1i"
+              },
+              "url": "https://www.foxsports.com.au/football/premier-league/epl-2020-arsenal-vs-chelsea-mikel-arteta-relegation-west-brom-sam-allardyce/news-story/4b89b35c252c955256352e451835019e",
+              "snippet": "West Brom manager Sam Allardyce on Wednesday taunted old rivals Arsenal by claiming the struggling Gunners are in danger of relegation."
+            },
+            {
+              "title": "More misery for Arsenal in 4-1 League Cup exit to Man City",
+              "timeAgo": "21h ago",
+              "source": "The Sydney Morning Herald",
+              "image": {
+                "newsUrl": "https://www.smh.com.au/sport/soccer/more-misery-for-arsenal-in-4-1-league-cup-exit-to-man-city-20201223-p56pr7.html",
+                "source": "The Sydney Morning Herald",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQ_rxKCUM2RQH9pd5yGctB_3RW7D2hvwH_kqBrZtyBJiocZVz4VkY6ztA8u6cLCa89T9cRypMtS"
+              },
+              "url": "https://www.smh.com.au/sport/soccer/more-misery-for-arsenal-in-4-1-league-cup-exit-to-man-city-20201223-p56pr7.html",
+              "snippet": "Arsenal&#39;s miserable season continued as they slumped to a 4-1 home defeat by holders Manchester City in the League Cup quarter-finals."
+            },
+            {
+              "title": "Guardiola defends &#39;incredible manager&#39; Arteta after Man City swat ...",
+              "timeAgo": "20h ago",
+              "source": "The World Game",
+              "image": {
+                "newsUrl": "https://theworldgame.sbs.com.au/guardiola-defends-incredible-manager-arteta-after-man-city-swat-arsenal-aside",
+                "source": "The World Game",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSS4hyM8qH0aurmnOdi8dfY8WlEHMozAYuxBvjRP2t8VSSO7Jnw3hjf0UG8Md0oel1xhwAi1dwg"
+              },
+              "url": "https://theworldgame.sbs.com.au/guardiola-defends-incredible-manager-arteta-after-man-city-swat-arsenal-aside",
+              "snippet": "Pep Guardiola described Mikel Arteta as an &quot;incredible manager&quot; after his Manchester City side beat struggling Arsenal 4-1 to reach the last four of the EFL Cup."
+            },
+            {
+              "title": "Arsenal need a Bruno Fernandes signing in January, but who could ...",
+              "timeAgo": "8h ago",
+              "source": "ESPN",
+              "image": {
+                "newsUrl": "https://www.espn.com/soccer/soccer-transfers/story/4272529/arsenal-need-a-bruno-fernandes-signing-in-januarybut-who-could-it-be",
+                "source": "ESPN",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcT-ptiQPrThCtI3SY6k3eTO_2tCKLa4_3uQQqbazRIKcI20rgLhermzUE40hZo3c_D1t1Y2Um2I"
+              },
+              "url": "https://www.espn.com/soccer/soccer-transfers/story/4272529/arsenal-need-a-bruno-fernandes-signing-in-januarybut-who-could-it-be",
+              "snippet": "Arsenal are 15th in the Premier League and need creativity in midfield. Man United got Bruno Fernandes last January, but what can the Gunners do?"
+            },
+            {
+              "title": "Martinelli gives Arsenal welcome boost with injury update after Man ...",
+              "timeAgo": "7h ago",
+              "source": "Goal.com",
+              "image": {
+                "newsUrl": "https://www.goal.com/en/news/martinelli-gives-arsenal-welcome-boost-with-injury-update/1f65ia0rorvu8133eqaihj411c",
+                "source": "Goal.com",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTxjcYc649_9dBt2IUBtWI80EKAGJDKQ7vnyxJJROSd5-x3GTqPpRg9Jh5f9FuEHE3u9jpGfyOw"
+              },
+              "url": "https://www.goal.com/en/news/martinelli-gives-arsenal-welcome-boost-with-injury-update/1f65ia0rorvu8133eqaihj411c",
+              "snippet": "Gabriel Martinelli has provided Arsenal fans with some much-needed good news after his injury scare against Manchester City on Tuesday."
+            },
+            {
+              "title": "Arsenal &#39;absolutely&#39; in the relegation mix this season, says Sam ...",
+              "timeAgo": "2h ago",
+              "source": "The Guardian",
+              "image": {
+                "newsUrl": "https://www.theguardian.com/football/2020/dec/23/arsenal-absolutely-in-relegation-mix-this-season-says-sam-allardyce-west-brom",
+                "source": "The Guardian",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcRVyrfvs7MHRaO2F0iY2jaOdBRZwj8W4to5za641QOBZuQTzJDJLqrHVZaCvzTJg1py_FBW-NpM"
+              },
+              "url": "https://www.theguardian.com/football/2020/dec/23/arsenal-absolutely-in-relegation-mix-this-season-says-sam-allardyce-west-brom",
+              "snippet": "Heavy Carabao Cup defeat to Manchester City &#39;drains confidence&#39; at Arsenal, who visit Sam Allardyce side on 2 January."
+            },
+            {
+              "title": "Don&#39;t fire Arteta: Guardiola warns Arsenal",
+              "timeAgo": "21h ago",
+              "source": "The West Australian",
+              "image": {
+                "newsUrl": "https://thewest.com.au/sport/soccer/dont-fire-arteta-guardiola-warns-arsenal-ng-s-2043052",
+                "source": "The West Australian",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcT_iZbRL1hiY-DaRNHmdONPgHxxxIuafBhopfRGNJQUUoqiGMjIKm19lcQ9hlw8ZZd7dbJ75mEJ"
+              },
+              "url": "https://thewest.com.au/sport/soccer/dont-fire-arteta-guardiola-warns-arsenal-ng-s-2043052",
+              "snippet": "Pep Guardiola says Arsenal will be making a huge mistake if they sack under-pressure coach Mikel Arteta."
+            },
+            {
+              "title": "Arsenal in danger of relegation, says West Brom&#39;s Allardyce",
+              "timeAgo": "2h ago",
+              "source": "Yahoo Sport Australia",
+              "image": {
+                "newsUrl": "https://au.sports.yahoo.com/arsenal-danger-relegation-says-west-181647033.html",
+                "source": "Yahoo Sport Australia",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTEYGShLnn3REKpQBBpwcDvGQEo3VGsX67dRh6WVh8pJXlNGegfCLa3g6tZrbFG9o_U63LbhGqr"
+              },
+              "url": "https://au.sports.yahoo.com/arsenal-danger-relegation-says-west-181647033.html",
+              "snippet": "West Brom manager Sam Allardyce on Wednesday taunted old rivals Arsenal by claiming the struggling Gunners are in danger of relegation."
+            },
+            {
+              "title": "Arteta&#39;s Arsenal misery continues in 4-1 Carabao Cup loss to ...",
+              "timeAgo": "21h ago",
+              "source": "The Guardian",
+              "image": {
+                "newsUrl": "https://www.theguardian.com/football/2020/dec/22/arsenal-manchester-city-carabao-cup-quarter-final-match-report",
+                "source": "The Guardian",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcT1JSOnt0949AvEypnrqVkxzCCo_TPGkjaqpJ0IFDYWvIl5ZoMKwfQuJ48TrkuSA4uZFA6-19vt"
+              },
+              "url": "https://www.theguardian.com/football/2020/dec/22/arsenal-manchester-city-carabao-cup-quarter-final-match-report",
+              "snippet": "Pep Guardiola&#39;s Manchester City made easy work of a much-changed Arsenal side in a 4-1 away victory that took them to the Carabao Cup semi-finals."
+            },
+            {
+              "title": "Allardyce claims Arsenal &#39;absolutely&#39; West Brom&#39;s relegation rivals",
+              "timeAgo": "5h ago",
+              "source": "Daily Mail",
+              "image": {
+                "newsUrl": "https://www.dailymail.co.uk/sport/football/article-9083063/Sam-Allardyce-insists-Arsenal-absolutely-West-Broms-Premier-League-relegation-rivals.html",
+                "source": "Daily Mail",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQf7cqcTjvFvSr44732QMVsBIEUqslVt_ov6RryYkGOXoN6MbLrlscw58c3H-pqAxQEo-zcz7i-"
+              },
+              "url": "https://www.dailymail.co.uk/sport/football/article-9083063/Sam-Allardyce-insists-Arsenal-absolutely-West-Broms-Premier-League-relegation-rivals.html",
+              "snippet": "The Gunners&#39; worst start to a season since 1974 sees them sit 15th in the Premier League table, just four points above the relegation zone and without a win in&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Arsenal#Arsenal"
+        },
+        {
+          "title": {
+            "query": "Nets vs Warriors",
+            "exploreLink": "/trends/explore?q=Nets+vs+Warriors&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "20K+",
+          "relatedQueries": [
+            {
+              "query": "kevin durant",
+              "exploreLink": "/trends/explore?q=kevin+durant&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "James Wiseman",
+              "exploreLink": "/trends/explore?q=James+Wiseman&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "Brooklyn Nets",
+              "exploreLink": "/trends/explore?q=Brooklyn+Nets&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "Kyrie Irving",
+              "exploreLink": "/trends/explore?q=Kyrie+Irving&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "stephen curry",
+              "exploreLink": "/trends/explore?q=stephen+curry&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.nba.com/nets/news/quotes/2020/12/22/nets-vs-warriors-kyrie-irving-kevin-durant-and-steve-nash-top-quotes",
+            "source": "Brooklynnets.com",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSOpan0Xms6IhlqQJwZR815hbaWb77P5BNrJ-kRtbCqe2Cyc43_pN3oB2KqMNUhR8xiOHd-H6S_"
+          },
+          "articles": [
+            {
+              "title": "Nets vs. Warriors: Kyrie Irving, Kevin Durant, and Steve Nash Top ...",
+              "timeAgo": "17h ago",
+              "source": "Brooklynnets.com",
+              "image": {
+                "newsUrl": "https://www.nba.com/nets/news/quotes/2020/12/22/nets-vs-warriors-kyrie-irving-kevin-durant-and-steve-nash-top-quotes",
+                "source": "Brooklynnets.com",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSOpan0Xms6IhlqQJwZR815hbaWb77P5BNrJ-kRtbCqe2Cyc43_pN3oB2KqMNUhR8xiOHd-H6S_"
+              },
+              "url": "https://www.nba.com/nets/news/quotes/2020/12/22/nets-vs-warriors-kyrie-irving-kevin-durant-and-steve-nash-top-quotes",
+              "snippet": "See what the Brooklyn Nets had to say after their 125-99 win over the Golden State Warriors."
+            },
+            {
+              "title": "Warriors vs. Nets: The best photos from opening night",
+              "timeAgo": "5h ago",
+              "source": "Nets Wire",
+              "image": {
+                "newsUrl": "https://netswire.usatoday.com/gallery/warriors-vs-nets-the-best-photos-from-opening-night/",
+                "source": "Nets Wire",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQOkkBalsoXqk-JI4Loj_ekKOm-8ierwT81YL8Wx79zx5GjwuWsyLFqJLW0C3Rich4MkM7c9mAO"
+              },
+              "url": "https://netswire.usatoday.com/gallery/warriors-vs-nets-the-best-photos-from-opening-night/",
+              "snippet": "The Brooklyn Nets opened the 2020-21 regular season with a lopsided 125-99 win over the Golden State Warriors that was never close, and superstar Kevin&nbsp;..."
+            },
+            {
+              "title": "Nets vs. Warriors score: Kevin Durant, Kyrie Irving shine in 125-99 ...",
+              "timeAgo": "19h ago",
+              "source": "CBSSports.com",
+              "image": {
+                "newsUrl": "https://www.cbssports.com/nba/news/nets-vs-warriors-score-live-updates-as-kevin-durant-kyrie-irving-take-on-stephen-curry-on-opening-night/live/",
+                "source": "CBSSports.com",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTxT-5CQx6c0VpiV9UzFwwDhrnP-GtzFmgcoZr_n0bLl_D0G-8S3wRM2hCEqaPszQsMi6bnJJRA"
+              },
+              "url": "https://www.cbssports.com/nba/news/nets-vs-warriors-score-live-updates-as-kevin-durant-kyrie-irving-take-on-stephen-curry-on-opening-night/live/",
+              "snippet": "The Brooklyn Nets were the story on Tuesday night in the opening game of the 2020-21 regular season schedule as Kevin Durant and Kyrie Irving looked like&nbsp;..."
+            },
+            {
+              "title": "&#39;Can see why Harden wants Brooklyn&#39;: Nets toast Curry and co in ...",
+              "timeAgo": "18h ago",
+              "source": "Fox Sports",
+              "image": {
+                "newsUrl": "https://www.foxsports.com.au/basketball/nba/nba-2020-live-brooklyn-nets-vs-golden-state-warriors-kevin-durant-return-achilles-injury-highlights-kyrie-irving/news-story/1017c9d1ce0c0e97d3b85a4685eb09ef",
+                "source": "Fox Sports",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRrHHaMgCcJbgSsjFQz98orYElsIGRtOi7eTDVzkxz45mXBG7R9hHA-BaQ-tgp-baf-jW7uQchm"
+              },
+              "url": "https://www.foxsports.com.au/basketball/nba/nba-2020-live-brooklyn-nets-vs-golden-state-warriors-kevin-durant-return-achilles-injury-highlights-kyrie-irving/news-story/1017c9d1ce0c0e97d3b85a4685eb09ef",
+              "snippet": "Kevin Durant&#39;s long awaited Brooklyn Nets debut didn&#39;t disappoint Tuesday, the two-time NBA Finals MVP teaming seamlessly with Kyrie Irving in a 125-99&nbsp;..."
+            },
+            {
+              "title": "Nets vs Warriors live stream reddit for NBA Opening Night",
+              "timeAgo": "23h ago",
+              "source": "Nothin' But Nets",
+              "image": {
+                "newsUrl": "https://nothinbutnets.com/2020/12/22/nets-vs-warriors-live-stream-reddit-nba-opening-night/",
+                "source": "Nothin' But Nets",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ_xFxXoMWCx7_0YjcgrneX2kr2BkdlKIF9lLmGGDYpXExVijiyyX20zmECzN5FFGpqJMm720d1"
+              },
+              "url": "https://nothinbutnets.com/2020/12/22/nets-vs-warriors-live-stream-reddit-nba-opening-night/",
+              "snippet": "The Brooklyn Nets will welcome the Golden State Warriors to the Barclays Center in a star-studded matchup on NBA Opening Night."
+            },
+            {
+              "title": "Warriors vs. Nets - Game Recap - December 22, 2020 - ESPN",
+              "timeAgo": "18h ago",
+              "source": "ESPN",
+              "image": {
+                "newsUrl": "https://www.espn.com/nba/recap?gameId=401266805",
+                "source": "ESPN",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRgRCgSpfApy_8Ws5KMHZljFusmpIUbpgpiN4to86FACIwwW6jEhZlp-l-Ue3qOh_WvN2L_DUsp"
+              },
+              "url": "https://www.espn.com/nba/recap?gameId=401266805",
+              "snippet": "Get a recap of the Golden State Warriors vs. Brooklyn Nets basketball game."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Nets+vs+Warriors#Nets%20vs%20Warriors"
+        },
+        {
+          "title": {
+            "query": "Bradley Edwards",
+            "exploreLink": "/trends/explore?q=Bradley+Edwards&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "20K+",
+          "relatedQueries": [
+            {
+              "query": "Claremont killer",
+              "exploreLink": "/trends/explore?q=Claremont+killer&date=now+7-d&geo=AU"
+            },
+            {
+              "query": "Claremont serial killer",
+              "exploreLink": "/trends/explore?q=Claremont+serial+killer&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.abc.net.au/news/2020-12-23/claremont-killer-sentenced-for-murders-rape-and-sexual-assault/13007890",
+            "source": "ABC News",
+            "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcQitXm62aQvelcvuK6_OMM-XOEo3JaJXwhQzq8_XC9U3fLdUQVNAqebXjgs8NQBoIW7MmL_rogR"
+          },
+          "articles": [
+            {
+              "title": "Claremont killer Bradley Edwards gets life sentence for murder of ...",
+              "timeAgo": "12h ago",
+              "source": "ABC News",
+              "image": {
+                "newsUrl": "https://www.abc.net.au/news/2020-12-23/claremont-killer-sentenced-for-murders-rape-and-sexual-assault/13007890",
+                "source": "ABC News",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcQitXm62aQvelcvuK6_OMM-XOEo3JaJXwhQzq8_XC9U3fLdUQVNAqebXjgs8NQBoIW7MmL_rogR"
+              },
+              "url": "https://www.abc.net.au/news/2020-12-23/claremont-killer-sentenced-for-murders-rape-and-sexual-assault/13007890",
+              "snippet": "Claremont killer Bradley Edwards told there is a &quot;high likelihood you will die in prison&quot; as he is sentenced to life in prison with a non-parole period of 40 years for&nbsp;..."
+            },
+            {
+              "title": "Claremont serial killer Bradley Edwards jailed for life",
+              "timeAgo": "11h ago",
+              "source": "9News",
+              "image": {
+                "newsUrl": "https://www.9news.com.au/national/claremont-killer-sentencing-bradley-edwards-sentencing/0e502d4a-d7ef-4fd1-9107-bc950f462b09",
+                "source": "9News",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRSCY4ceCrHzHNk9xva6ipXw8chuFAetGtMqfEfcWdL3UDH9Asplc0R9bxE93d2TZYlyUnVo-xi"
+              },
+              "url": "https://www.9news.com.au/national/claremont-killer-sentencing-bradley-edwards-sentencing/0e502d4a-d7ef-4fd1-9107-bc950f462b09",
+              "snippet": "Claremont serial killer Bradley Edwards will spend at least 40 years behind bars after he was sentenced today."
+            },
+            {
+              "title": "&#39;You will likely die in prison&#39;: Claremont killer Bradley Edwards to ...",
+              "timeAgo": "15h ago",
+              "source": "WAtoday",
+              "image": {
+                "newsUrl": "https://www.watoday.com.au/national/western-australia/you-will-likely-die-in-prison-claremont-killer-bradley-edwards-to-spend-minimum-40-years-behind-bars-20201223-p56pu8.html",
+                "source": "WAtoday",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTSWgl_IAjlIuy2ItYuo2peMv4eM21fh7duZlBZ0hR-_qiiLPV2KsD8nPlIynwueyddt6CfYqxs"
+              },
+              "url": "https://www.watoday.com.au/national/western-australia/you-will-likely-die-in-prison-claremont-killer-bradley-edwards-to-spend-minimum-40-years-behind-bars-20201223-p56pu8.html",
+              "snippet": "The court erupted in applause after it was clear Claremont killer Bradley Edwards would likely never walk out of jail alive."
+            },
+            {
+              "title": "Claremont killer sentencing LIVE updates: Bradley Edwards ...",
+              "timeAgo": "14h ago",
+              "source": "The Age",
+              "image": {
+                "newsUrl": "https://www.theage.com.au/national/western-australia/claremont-killer-sentencing-live-judge-to-decide-if-bradley-edwards-will-spend-rest-of-life-behind-bars-20201222-p56plg.html",
+                "source": "The Age",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcSMxrShE_SYoYf3mv6YsEHJHH3ekEFW4Q3u-qxKbp-VufAJbK4l2YHMxz3wTRvpl_ze6VHuWOL-"
+              },
+              "url": "https://www.theage.com.au/national/western-australia/claremont-killer-sentencing-live-judge-to-decide-if-bradley-edwards-will-spend-rest-of-life-behind-bars-20201222-p56plg.html",
+              "snippet": "Police Commissioner Chris Dawson said, in speaking with the family members and living victims after the 40 year term was handed down, they believed justice&nbsp;..."
+            },
+            {
+              "title": "Claremont killer Bradley Edwards sentenced to life in prison with 40 ...",
+              "timeAgo": "15h ago",
+              "source": "7NEWS.com.au",
+              "image": {
+                "newsUrl": "https://7news.com.au/news/wa/claremont-killer-bradley-edwards-sentenced-to-life-in-prison-with-40-year-non-parole-period-c-1823314",
+                "source": "7NEWS.com.au",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRqGmi5jctD-NsJeVgkX7GLORiK6kn8CsGzEMiXhcsRSewci7kQ-cDJjunJNcj2wwBaNNIDR3d6"
+              },
+              "url": "https://7news.com.au/news/wa/claremont-killer-bradley-edwards-sentenced-to-life-in-prison-with-40-year-non-parole-period-c-1823314",
+              "snippet": "&#39;He preyed on weak, vulnerable young women who didn&#39;t stand a chance.&#39;"
+            },
+            {
+              "title": "Claremont murderer Bradley Robert Edwards sentenced to at least ...",
+              "timeAgo": "16h ago",
+              "source": "The Guardian",
+              "image": {
+                "newsUrl": "https://www.theguardian.com/australia-news/2020/dec/23/claremont-murderer-bradley-robert-edwards-sentenced-to-at-least-40-years-behind-bars",
+                "source": "The Guardian",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTcfOK8gP99sEaNPuWaQVJzJNQDmqjUWwb7q7V8CYmdIb72XjH2b3ycbB1qVGJwljXmJPjgNQA5"
+              },
+              "url": "https://www.theguardian.com/australia-news/2020/dec/23/claremont-murderer-bradley-robert-edwards-sentenced-to-at-least-40-years-behind-bars",
+              "snippet": "The 52-year-old was convicted in September of abducting and killing Jane Rimmer and Ciara Glennon in the 1990s."
+            },
+            {
+              "title": "Bradley Edwards sentenced to life in prison for Claremont murders",
+              "timeAgo": "15h ago",
+              "source": "97.3 Coast FM",
+              "image": {
+                "newsUrl": "https://www.coastlive.com.au/news/local-news/bradley-edwards-sentenced-to-life-in-prison-for-claremont-murders/",
+                "source": "97.3 Coast FM",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTXsoil3sSDoRljgdf4AahbBlSeO587NT4IpyNt-G_rb-HyaH3DrcPKeYkV32s60uusA0vikkCl"
+              },
+              "url": "https://www.coastlive.com.au/news/local-news/bradley-edwards-sentenced-to-life-in-prison-for-claremont-murders/",
+              "snippet": "Convicted Claremont killer Bradley Robert Edwards will spend the next 40-years in prison over the murders of Jane Rimmer and Ciara Glennon."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Bradley+Edwards#Bradley%20Edwards"
+        },
+        {
+          "title": {
+            "query": "Juventus",
+            "exploreLink": "/trends/explore?q=Juventus&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "20K+",
+          "relatedQueries": [
+            {
+              "query": "juventus vs fiorentina",
+              "exploreLink": "/trends/explore?q=juventus+vs+fiorentina&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://theworldgame.sbs.com.au/pirlo-condemns-poor-attitude-after-heavy-juventus-defeat",
+            "source": "The World Game",
+            "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQdecrrKA8NVj7c62Izdhg1rTN1-5zbp7AvY6WjZ7vlnLDRzGHcIOFH1SdMpfam7V2dt08BAS5b"
+          },
+          "articles": [
+            {
+              "title": "Pirlo condemns poor attitude after heavy Juventus defeat | The ...",
+              "timeAgo": "20h ago",
+              "source": "The World Game",
+              "image": {
+                "newsUrl": "https://theworldgame.sbs.com.au/pirlo-condemns-poor-attitude-after-heavy-juventus-defeat",
+                "source": "The World Game",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQdecrrKA8NVj7c62Izdhg1rTN1-5zbp7AvY6WjZ7vlnLDRzGHcIOFH1SdMpfam7V2dt08BAS5b"
+              },
+              "url": "https://theworldgame.sbs.com.au/pirlo-condemns-poor-attitude-after-heavy-juventus-defeat",
+              "snippet": "Andrea Pirlo refused to blame Juan Cuadrado&#39;s dismissal for Juventus&#39; heavy home loss to Fiorentina and instead questioned the attitude of his players heading&nbsp;..."
+            },
+            {
+              "title": "Napoli win appeal against 3-0 Juventus forfeit defeat and one-point ...",
+              "timeAgo": "1d ago",
+              "source": "The World Game",
+              "image": {
+                "newsUrl": "https://theworldgame.sbs.com.au/napoli-win-appeal-against-3-0-juventus-forfeit-defeat-and-one-point-penalty",
+                "source": "The World Game",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSd6bbkv_jAbdU_6YVjR5LF0uKJOmEyAbAr2H4SyHxAAIE49XxnNBYGHDBF-Mxmy1HajVCEaV1e"
+              },
+              "url": "https://theworldgame.sbs.com.au/napoli-win-appeal-against-3-0-juventus-forfeit-defeat-and-one-point-penalty",
+              "snippet": "Napoli have successfully appealed against the 3-0 forfeit defeat to Juventus and subsequent one-point penalty, with the game to be rescheduled in 2021."
+            },
+            {
+              "title": "Defeats on and off pitch leave Pirlo and Juventus in scrap for Serie A ...",
+              "timeAgo": "10h ago",
+              "source": "The Guardian",
+              "image": {
+                "newsUrl": "https://www.theguardian.com/football/blog/2020/dec/23/juventus-andrea-pirlo-serie-a-napoli-milan-fiorentina-cristiano-ronaldo",
+                "source": "The Guardian",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTQV1q62V0VhXhvl7BSgMVYEjTAFE_aV8DPCJ3NvMigQbLjpPsikjcsbR5Nws3bBhoZeZM6H94wxA"
+              },
+              "url": "https://www.theguardian.com/football/blog/2020/dec/23/juventus-andrea-pirlo-serie-a-napoli-milan-fiorentina-cristiano-ronaldo",
+              "snippet": "After Juve&#39;s walkover win against Napoli was cancelled and they lost 3-0 to Fiorentina, could it finally be someone else&#39;s year?"
+            },
+            {
+              "title": "Ronaldo demands &#39;excellence&#39; from Juventus in 2021 rallying call ...",
+              "timeAgo": "8h ago",
+              "source": "Goal.com",
+              "image": {
+                "newsUrl": "https://www.goal.com/en/news/ronaldo-demands-excellence-from-juventus-in-new-year/13qn3fh2yy1kc16wupvofxjyle",
+                "source": "Goal.com",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcRM6Tb-2RAYl-Fjcu6n-n89cg26QCJG-avPKVgfk8IesD80n-aMCguY6xIcpZ6CvAX1aE43LvRq"
+              },
+              "url": "https://www.goal.com/en/news/ronaldo-demands-excellence-from-juventus-in-new-year/13qn3fh2yy1kc16wupvofxjyle",
+              "snippet": "The Portugal star says the Bianconeri can have no excuse for their &#39;poor performance&#39; against Fiorentina at the Allianz Stadium. Cristiano Ronaldo has issued a&nbsp;..."
+            },
+            {
+              "title": "Juventus lose six points in one day | Football Italia",
+              "timeAgo": "10h ago",
+              "source": "Football Italia",
+              "url": "https://www.football-italia.net/163915/juventus-lose-six-points-one-day",
+              "snippet": "Juventus showed mental fragility as they suffered a 3-0 home defeat against Fiorentina after learning the Napoli game won by default in October will have to be&nbsp;..."
+            },
+            {
+              "title": "What&#39;s Next For Serie A After SSC Napoli Win Appeal Over Juventus ...",
+              "timeAgo": "22h ago",
+              "source": "Forbes",
+              "image": {
+                "newsUrl": "https://www.forbes.com/sites/giacomogalardini/2020/12/22/whats-next-for-serie-a-after-ssc-napoli-win-appeal-over-juventus-coronavirus-forfeit/",
+                "source": "Forbes",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTch5Hqv3RK0r4jyTQ_i-rPVGDHvIfcuYGuiS5FS7Y6Jr4YYN4MxCKu4DdV-zzNNgsufMB1tS14"
+              },
+              "url": "https://www.forbes.com/sites/giacomogalardini/2020/12/22/whats-next-for-serie-a-after-ssc-napoli-win-appeal-over-juventus-coronavirus-forfeit/",
+              "snippet": "Besides the controversy that the verdict will sure spark, the decision leaves Serie A with two big issues."
+            },
+            {
+              "title": "Juventus vs. Fiorentina - Football Match Report - December 22 ...",
+              "timeAgo": "23h ago",
+              "source": "ESPN Australia",
+              "image": {
+                "newsUrl": "http://www.espn.com.au/football/report?gameId=583023",
+                "source": "ESPN Australia",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRyYNjEFV2SnvnVzHCT9q0QKG9sBcz5XCqa7tXX86Vh8Ak77ZfdGMijbYE2jKQU-6w_IOljfmX-ag"
+              },
+              "url": "http://www.espn.com.au/football/report?gameId=583023",
+              "snippet": "Dec 22 (Reuters) - Champions Juventus suffered their first Serie A defeat of the season when they crashed 3-0 at home to lowly Fiorentina after having Juan&nbsp;..."
+            },
+            {
+              "title": "Cristiano Ronaldo&#39;s highlights from Juventus vs Fiorentina say a lot ...",
+              "timeAgo": "11h ago",
+              "source": "GiveMeSport",
+              "image": {
+                "newsUrl": "https://www.givemesport.com/1630942-cristiano-ronaldos-highlights-from-juventus-vs-fiorentina-say-a-lot-about-his-serie-a-career",
+                "source": "GiveMeSport",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSmSiHEIpwCQHlnbbHK-o88ochjr0viPIWYQSl3l-1hBy20kE1Oi9GwOa6uphzS417UzL1OUpam"
+              },
+              "url": "https://www.givemesport.com/1630942-cristiano-ronaldos-highlights-from-juventus-vs-fiorentina-say-a-lot-about-his-serie-a-career",
+              "snippet": "Juventus had a night to forget in Serie A this week. The Old Lady now find themselves a yawning seven points behind table-toppers AC Milan after suffering a&nbsp;..."
+            },
+            {
+              "title": "Napoli win appeal to replay previously-abandoned clash with ...",
+              "timeAgo": "1d ago",
+              "source": "Goal.com",
+              "image": {
+                "newsUrl": "https://www.goal.com/en/news/napoli-win-appeal-to-replay-previously-abandoned-clash-with/19rl8kbd18j3e1dqziah2t7z36",
+                "source": "Goal.com",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQT0wV6D4sbuQKT3a_nvuuFi0ETmYVLffozFNf6xKaXH0op9qUxNUtemN6ZKIYXF9HNyW01qcEe"
+              },
+              "url": "https://www.goal.com/en/news/napoli-win-appeal-to-replay-previously-abandoned-clash-with/19rl8kbd18j3e1dqziah2t7z36",
+              "snippet": "Napoli have won their appeal to replay a match against Juventus after the original tie was deemed a forfeit due to coronavirus concerns."
+            },
+            {
+              "title": "Cristiano Ronaldo: No Excuse For Juventus&#39; Unacceptable 0-3 ...",
+              "timeAgo": "7h ago",
+              "source": "Outlook India",
+              "image": {
+                "newsUrl": "https://www.outlookindia.com/website/story/sports-news-cristiano-ronaldo-no-excuse-for-juventus-unacceptable-0-3-defeat-to-fiorentina/368189",
+                "source": "Outlook India",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcS_pxTZ-JtyJze4poud2NxVfwET424i1W2PnfdKYdpEHDgBIk76Du7pjFnZmA6dE9bzNQocSAs1"
+              },
+              "url": "https://www.outlookindia.com/website/story/sports-news-cristiano-ronaldo-no-excuse-for-juventus-unacceptable-0-3-defeat-to-fiorentina/368189",
+              "snippet": "Juventus were soundly beaten in their last game of 2020 and Cristiano Ronaldo warned they must raise their game in the new year."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Juventus#Juventus"
+        },
+        {
+          "title": {
+            "query": "Nick Martin",
+            "exploreLink": "/trends/explore?q=Nick+Martin&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "10K+",
+          "relatedQueries": [
+            {
+              "query": "Nick Martin funeral",
+              "exploreLink": "/trends/explore?q=Nick+Martin+funeral&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.watoday.com.au/national/western-australia/fiercely-loyal-and-a-big-eater-friends-family-and-club-mates-farewell-larger-than-life-nick-martin-20201223-p56pvt.html",
+            "source": "WAtoday",
+            "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR9v5-5QI_vEECq-2dLYbWKgqQrBRKLMmZtbSVzGpNcImRs25lIwZ37NdrVdkW0PD5HrfJ9nmJy"
+          },
+          "articles": [
+            {
+              "title": "Fiercely loyal and a big eater: Friends, family and club mates ...",
+              "timeAgo": "12h ago",
+              "source": "WAtoday",
+              "image": {
+                "newsUrl": "https://www.watoday.com.au/national/western-australia/fiercely-loyal-and-a-big-eater-friends-family-and-club-mates-farewell-larger-than-life-nick-martin-20201223-p56pvt.html",
+                "source": "WAtoday",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR9v5-5QI_vEECq-2dLYbWKgqQrBRKLMmZtbSVzGpNcImRs25lIwZ37NdrVdkW0PD5HrfJ9nmJy"
+              },
+              "url": "https://www.watoday.com.au/national/western-australia/fiercely-loyal-and-a-big-eater-friends-family-and-club-mates-farewell-larger-than-life-nick-martin-20201223-p56pvt.html",
+              "snippet": "In a heartfelt address at Pinnaroo Valley Memorial Park on Wednesday, they described the bikie boss as a doting father and a &quot;cuddly Teddy bear&quot;, who had a&nbsp;..."
+            },
+            {
+              "title": "Softer side of notorious gangster, Nick Martin, revealed at bikie ...",
+              "timeAgo": "6h ago",
+              "source": "Daily Mail",
+              "image": {
+                "newsUrl": "https://www.dailymail.co.uk/news/article-9082627/Softer-notorious-gangster-Nick-Martin-revealed-bikie-funeral-Perth.html",
+                "source": "Daily Mail",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTXC1g5yp_C07dzLqBI3JePb-9XTU9qsPYOWKdtJLtcd9G6qDmBhXYABwHZ__-N_PaQpDm2yM7t"
+              },
+              "url": "https://www.dailymail.co.uk/news/article-9082627/Softer-notorious-gangster-Nick-Martin-revealed-bikie-funeral-Perth.html",
+              "snippet": "Long before slain bikie boss Nick Martin, 51, was a patched in member of the Rebels outlaw motorcycle gang, he was a fresh-faced boy with a sweet smile."
+            },
+            {
+              "title": "Menace, and cops, in the air at bikie chief Nick Martin&#39;s funeral",
+              "timeAgo": "11h ago",
+              "source": "The Australian",
+              "image": {
+                "newsUrl": "https://www.theaustralian.com.au/nation/menace-and-cops-in-the-air-at-bikie-chief-nick-martins-funeral/news-story/83501661b3c4ac24828acf8a9d425d30",
+                "source": "The Australian",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcT7FEg0HG-ICrtszmAqYIBtllJh52P8TL73Us48F0G0sFnqgUxt8KaoWdAAD9NelF-Fa2K7mYOv"
+              },
+              "url": "https://www.theaustralian.com.au/nation/menace-and-cops-in-the-air-at-bikie-chief-nick-martins-funeral/news-story/83501661b3c4ac24828acf8a9d425d30",
+              "snippet": "A police marksman leaned out of a helicopter over Pinnaroo Valley cemetery in Perth on Wednesday as 10 Rebels bikies carried their slain president in a coffin&nbsp;..."
+            },
+            {
+              "title": "Exiled national Rebels bikie boss Alex Vella gives poetic tribute at ...",
+              "timeAgo": "8h ago",
+              "source": "The West Australian",
+              "image": {
+                "newsUrl": "https://thewest.com.au/news/perth/exiled-national-rebels-bikie-boss-alex-vella-gives-poetic-tribute-at-nick-martins-funeral-ng-b881755574z",
+                "source": "The West Australian",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRlNxT9HLYbnS9d0n5-6tlG9u-IbsipGQeSkkGGxc4YNruHtv_Mr-RGlUmrXQsKN-hSeBvy_PNo"
+              },
+              "url": "https://thewest.com.au/news/perth/exiled-national-rebels-bikie-boss-alex-vella-gives-poetic-tribute-at-nick-martins-funeral-ng-b881755574z",
+              "snippet": "Exiled national Rebels bikie boss Alex Vella read a poem at Nick Martin&#39;s funeral today, describing his friend as a proud father and great mate who had so much&nbsp;..."
+            },
+            {
+              "title": "Motorcycles Form Cavalcade in Perth For Slain Rebels Bikie Club ...",
+              "timeAgo": "7h ago",
+              "source": "Yahoo News",
+              "image": {
+                "newsUrl": "https://news.yahoo.com/motorcycles-form-cavalcade-perth-slain-133053647.html",
+                "source": "Yahoo News",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSPB-qGTEVjimCmiFBH9w8P51KV9JXxLWqRjQ7VsnJusKMLUyJB9p0ZIawGFg_o9tE0c5TInz33"
+              },
+              "url": "https://news.yahoo.com/motorcycles-form-cavalcade-perth-slain-133053647.html",
+              "snippet": "A large number of bikies rode across Perth on December 23 in a tribute to slain Rebels bikie boss Nick Martin.Martin, 51, was assassinated at the Perth&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Nick+Martin#Nick%20Martin"
+        },
+        {
+          "title": {
+            "query": "Infants' Friend",
+            "exploreLink": "/trends/explore?q=Infants'+Friend&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "10K+",
+          "relatedQueries": [
+            {
+              "query": "chloroform",
+              "exploreLink": "/trends/explore?q=chloroform&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://7news.com.au/lifestyle/recalls/infants-friend-oral-liquid-medicine-recalled-over-presence-of-chloroform-c-1822903",
+            "source": "7NEWS.com.au",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRo-pcQoGdyJvNcnvyzEuscnuwvlacRNhkQZ5-NjYJgpsfhVcdmQ1pLc2eSEIhLiVrw1lCYk_ZB"
+          },
+          "articles": [
+            {
+              "title": "Infants&#39; Friend oral liquid medicine recalled over presence of ...",
+              "timeAgo": "16h ago",
+              "source": "7NEWS.com.au",
+              "image": {
+                "newsUrl": "https://7news.com.au/lifestyle/recalls/infants-friend-oral-liquid-medicine-recalled-over-presence-of-chloroform-c-1822903",
+                "source": "7NEWS.com.au",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRo-pcQoGdyJvNcnvyzEuscnuwvlacRNhkQZ5-NjYJgpsfhVcdmQ1pLc2eSEIhLiVrw1lCYk_ZB"
+              },
+              "url": "https://7news.com.au/lifestyle/recalls/infants-friend-oral-liquid-medicine-recalled-over-presence-of-chloroform-c-1822903",
+              "snippet": "Swimming instructor&#39;s methods divide parents. NSW Premier announces restrictions for festive period. A medicine that is used to relieve colic during teething in&nbsp;..."
+            },
+            {
+              "title": "Infants&#39; Friend oral liquid",
+              "timeAgo": "21h ago",
+              "source": "Mirage News",
+              "image": {
+                "newsUrl": "https://www.miragenews.com/infants-friend-oral-liquid/",
+                "source": "Mirage News",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSmrqogmRgQWgGuBZf1menOv3IwPmizVrLDedeFkpKIqJo3YJ38b4OrcPGQP4QElUYMT8nNGW6c"
+              },
+              "url": "https://www.miragenews.com/infants-friend-oral-liquid/",
+              "snippet": "Consumers and health professionals are advised that Infants&#39; Friend Pty Ltd, in consultation with the TGA, is recalling all batches of Infants&#39; Friend..."
+            },
+            {
+              "title": "Recall alert: Infants&#39; Friend recalled due to presence of chloroform",
+              "timeAgo": "17h ago",
+              "source": "Essential Baby",
+              "image": {
+                "newsUrl": "http://www.essentialbaby.com.au/news/recall-alert-infants-friend-recalled-due-to-presence-of-chloroform-20201223-h1t00t",
+                "source": "Essential Baby",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ6TXCw4hty0GDLjoKPmDPhKmYtSr8ZWbK9yu5oTlpsrAXmwNb5UbH5zHdYZCIchGteKc-hZ7__"
+              },
+              "url": "http://www.essentialbaby.com.au/news/recall-alert-infants-friend-recalled-due-to-presence-of-chloroform-20201223-h1t00t",
+              "snippet": "The tonic is popular among parents for treating colic."
+            },
+            {
+              "title": "Colic medicine recalled due to the presence of chloroform",
+              "timeAgo": "18h ago",
+              "source": "91.7 The Wave",
+              "image": {
+                "newsUrl": "https://www.917thewave.com.au/news/local-news/colic-medicine-recalled-due-to-the-presence-of-chloroform/",
+                "source": "91.7 The Wave",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRsolBVMgUd4M8ztPHKQHbOJ4X4nCS-8I7c1tDiLGaFI38EhmLqoA13g4NnlV018xhQchUtA5MZ"
+              },
+              "url": "https://www.917thewave.com.au/news/local-news/colic-medicine-recalled-due-to-the-presence-of-chloroform/",
+              "snippet": "Infants&#39; Friend Pty Ltd in consultation with the Therapeutic Goods Administration is recalling all batches of Infants&#39; Friend oral liquid due to the discovery of&nbsp;..."
+            },
+            {
+              "title": "Well-known oral liquid used to relieve colic in babies recalled",
+              "timeAgo": "14h ago",
+              "source": "3AW",
+              "image": {
+                "newsUrl": "https://www.3aw.com.au/well-known-oral-liquid-used-to-relieve-colic-in-babies-recalled/",
+                "source": "3AW",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQRgklZWSKrT_bqq_ampD21RRM3AzNoNu_cpHl18zUghv-4GRNSReRZ5t_Kauc21i7sGCDe80ZX"
+              },
+              "url": "https://www.3aw.com.au/well-known-oral-liquid-used-to-relieve-colic-in-babies-recalled/",
+              "snippet": "“The TGA recently became aware that Infants&#39; Friend oral liquid includes a small amount of chloroform as an inactive ingredient,” the TGA said in a statement. “&nbsp;..."
+            },
+            {
+              "title": "Urgent recall of medicine that stops babies from crying while ...",
+              "timeAgo": "12h ago",
+              "source": "Daily Mail",
+              "image": {
+                "newsUrl": "https://www.dailymail.co.uk/news/article-9081821/Urgent-recall-medicine-stops-babies-crying-teething-chloroform-added.html",
+                "source": "Daily Mail",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQDkpFanrMffZf02Bi9AkSQCpnS37S_hqsXxoqcetZxJVGMUMBYOqX1SuXr08mI8dBTraZLBksR"
+              },
+              "url": "https://www.dailymail.co.uk/news/article-9081821/Urgent-recall-medicine-stops-babies-crying-teething-chloroform-added.html",
+              "snippet": "The Therapeutic Goods Administration posted a recall notice for Infants&#39; Friend oral liquid due to the presence of chloroform as an inactive ingredient."
+            },
+            {
+              "title": "Recalls underway",
+              "timeAgo": "12h ago",
+              "source": "Australian Journal of Pharmacy",
+              "image": {
+                "newsUrl": "https://ajp.com.au/news/recalls-underway/",
+                "source": "Australian Journal of Pharmacy",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcSLXLQ_e8K5MafHw0BO7Bv9FP53oeYC_nzYPF75EI_PazRT4zReeNRO57Dw37WaWZCGC7VlzHV4"
+              },
+              "url": "https://ajp.com.au/news/recalls-underway/",
+              "snippet": "The TGA has issued a series of immediately pre-Christmas product recall, product shortage and safety advisory alerts. A recall has been initiated for all batches&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Infants'+Friend#Infants'%20Friend"
+        },
+        {
+          "title": {
+            "query": "KFC console",
+            "exploreLink": "/trends/explore?q=KFC+console&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "10K+",
+          "relatedQueries": [
+            {
+              "query": "KFConsole",
+              "exploreLink": "/trends/explore?q=KFConsole&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.forbes.com/sites/erikkain/2020/12/23/kfc-console-announced-4k-240fps-kentucky-fried-chicken-video-games/",
+            "source": "Forbes",
+            "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRqhUs9G-IUSQG8MqnhoDt-7-TyVdKOCcJmT4ZOktJbGuogFmqmxAM2rPhVf1Bd5X-jeQ75mooa"
+          },
+          "articles": [
+            {
+              "title": "KFC Reveals Its Next-Gen Video Game Console And It&#39;s As Weird ...",
+              "timeAgo": "5h ago",
+              "source": "Forbes",
+              "image": {
+                "newsUrl": "https://www.forbes.com/sites/erikkain/2020/12/23/kfc-console-announced-4k-240fps-kentucky-fried-chicken-video-games/",
+                "source": "Forbes",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRqhUs9G-IUSQG8MqnhoDt-7-TyVdKOCcJmT4ZOktJbGuogFmqmxAM2rPhVf1Bd5X-jeQ75mooa"
+              },
+              "url": "https://www.forbes.com/sites/erikkain/2020/12/23/kfc-console-announced-4k-240fps-kentucky-fried-chicken-video-games/",
+              "snippet": "The &#39;KFConsole&#39; is real. It&#39;s a high-end, chicken-warming beast of a machine."
+            },
+            {
+              "title": "KFC launches bizarre new games console (because... 2020)",
+              "timeAgo": "8h ago",
+              "source": "Creative Bloq",
+              "image": {
+                "newsUrl": "https://www.creativebloq.com/news/kfc-games-console",
+                "source": "Creative Bloq",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRvLS7-_zjmwvVmf1E8j8a20tHVp1WOyWV_GJKEVK_bWTHeKZ9mQ5yYGeqKICvlIotqhY06YvJ2"
+              },
+              "url": "https://www.creativebloq.com/news/kfc-games-console",
+              "snippet": "It&#39;s been an eventful year for gamers, with big hitters Sony and Microsoft finally launching their hugely anticipated next-gen consoles. But along with the the PS5&nbsp;..."
+            },
+            {
+              "title": "KFC launches 4K, 240FPS gaming console with a built-in chicken ...",
+              "timeAgo": "21h ago",
+              "source": "GamesRadar",
+              "image": {
+                "newsUrl": "https://www.gamesradar.com/au/kfc-launches-4k-240fps-gaming-console-with-a-built-in-chicken-warmer/",
+                "source": "GamesRadar",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSlftkO_QyrTt3kZvM2T9OeuNtZ-_iAoNgb3T-KJeRO8BMET0QlXtCw8fLdOXVTI8sXuGw1eM5c"
+              },
+              "url": "https://www.gamesradar.com/au/kfc-launches-4k-240fps-gaming-console-with-a-built-in-chicken-warmer/",
+              "snippet": "Watch out, PS5 and Xbox Series X, the KFC gaming console is real. It&#39;s called the KFConsole, it&#39;s essentially a VR-ready high-end gaming PC, and it comes with&nbsp;..."
+            },
+            {
+              "title": "KFC launches game console that keeps your chicken warm - CNN",
+              "timeAgo": "9h ago",
+              "source": "CNN",
+              "image": {
+                "newsUrl": "https://www.cnn.com/2020/12/23/tech/kfc-games-console-chicken-scli-intl/index.html",
+                "source": "CNN",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRyS2xTOndAfX0O6DJVkpu2Ds1cEflFjtmCkEgLVYtKgkOkqDPuybShRQW2f92T3d41k-i7_MB5"
+              },
+              "url": "https://www.cnn.com/2020/12/23/tech/kfc-games-console-chicken-scli-intl/index.html",
+              "snippet": "Fast-food chain KFC has announced a new Intel-powered games console that comes with a built-in &quot;chicken chamber&quot; to keep your snacks warm."
+            },
+            {
+              "title": "KFC launches a gaming console with built-in chicken warmer",
+              "timeAgo": "1h ago",
+              "source": "Today.com",
+              "image": {
+                "newsUrl": "https://www.today.com/tmrw/kfc-launches-gaming-console-built-chicken-warmer-t204617",
+                "source": "Today.com",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRxowIT8s5SjNJrMy1prKvFnEmd7mPtgKEgZ2cSw6DlLDDQw0NqreRKQYmI0U3IjLG1urmoprp5"
+              },
+              "url": "https://www.today.com/tmrw/kfc-launches-gaming-console-built-chicken-warmer-t204617",
+              "snippet": "KFC has announced the &#39;KFConsole,&#39; a 4K 240fps video game console with a built-in fried chicken warm. The console was first teased in a June Twitter video."
+            },
+            {
+              "title": "KFC&#39;s ultra-powerful KFConsole includes a built-in chicken chamber ...",
+              "timeAgo": "4h ago",
+              "source": "Business Insider",
+              "image": {
+                "newsUrl": "https://www.businessinsider.com/kfc-launches-games-console-that-keeps-your-fried-chicken-warm-2020-12",
+                "source": "Business Insider",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcROu4HLa_AgWePfqoHU6u8mVknWJBpbSyhIZ498UDO4d1N19iNLgVZKJF2vIeKsNqyO9M3gbgAH"
+              },
+              "url": "https://www.businessinsider.com/kfc-launches-games-console-that-keeps-your-fried-chicken-warm-2020-12",
+              "snippet": "KFC announced Tuesday the creation of a new gaming console, KFConsole, which has a built-in &quot;chicken chamber&quot; to keep food warm in while users play."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=KFC+console#KFC%20console"
+        },
+        {
+          "title": {
+            "query": "Valladolid vs Barcelona",
+            "exploreLink": "/trends/explore?q=Valladolid+vs+Barcelona&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "10K+",
+          "relatedQueries": [
+            {
+              "query": "Barcelona",
+              "exploreLink": "/trends/explore?q=Barcelona&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://ftw.usatoday.com/2020/12/real-valladolid-vs-barcelona-la-liga-live-stream-starting-lineups-tv-channel-how-to-watch-online-start-time-odds",
+            "source": "For The Win",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTPRChoH5mxdey-t63N2BPxribmyPSV1RSkfbXG6SbxhrOaPadV9lP4cW5lmv6Vf6R-tSqf0yo3"
+          },
+          "articles": [
+            {
+              "title": "Real Valladolid vs. Barcelona: La Liga live stream, starting lineups ...",
+              "timeAgo": "1d ago",
+              "source": "For The Win",
+              "image": {
+                "newsUrl": "https://ftw.usatoday.com/2020/12/real-valladolid-vs-barcelona-la-liga-live-stream-starting-lineups-tv-channel-how-to-watch-online-start-time-odds",
+                "source": "For The Win",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTPRChoH5mxdey-t63N2BPxribmyPSV1RSkfbXG6SbxhrOaPadV9lP4cW5lmv6Vf6R-tSqf0yo3"
+              },
+              "url": "https://ftw.usatoday.com/2020/12/real-valladolid-vs-barcelona-la-liga-live-stream-starting-lineups-tv-channel-how-to-watch-online-start-time-odds",
+              "snippet": "Barcelona will host Real Valladolid on Tuesday to see if they can get back to their winning ways, after drawing with Valencia last week."
+            },
+            {
+              "title": "Real Valladolid vs. Barcelona - Football Match Report - December ...",
+              "timeAgo": "22h ago",
+              "source": "ESPN",
+              "image": {
+                "newsUrl": "http://www.espn.com/soccer/report?gameId=582055",
+                "source": "ESPN",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSsjErzDjcEDDjSdtzeH2IfKLMjk-vF_Ckx4vNBDNQJDkvkGh-_vM-EKRDEAUWpZgJkWw1rz76k"
+              },
+              "url": "http://www.espn.com/soccer/report?gameId=582055",
+              "snippet": "Get a report of the Real Valladolid vs. Barcelona 2020-2021 LaLiga football match."
+            },
+            {
+              "title": "Valladolid vs. Barcelona: La Liga live stream, TV channel, how to ...",
+              "timeAgo": "1d ago",
+              "source": "CBSSports.com",
+              "image": {
+                "newsUrl": "https://www.cbssports.com/soccer/news/valladolid-vs-barcelona-la-liga-live-stream-tv-channel-how-to-watch-online-news-odds/",
+                "source": "CBSSports.com",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR6OLXwzxjPZPd3NfOPePt-FbLEQ56gSiEtaJrI2BkMH8iYZAwOaRkwYodI4IRNs1OJzII8uXGC"
+              },
+              "url": "https://www.cbssports.com/soccer/news/valladolid-vs-barcelona-la-liga-live-stream-tv-channel-how-to-watch-online-news-odds/",
+              "snippet": "Barcelona try to get back to winning on the road against bottom tier team Valladolid."
+            },
+            {
+              "title": "VLD Vs BAR Fantasy Prediction: Real Valladolid Vs Barcelona Best ...",
+              "timeAgo": "1d ago",
+              "source": "The Sportsrush",
+              "image": {
+                "newsUrl": "https://thesportsrush.com/vld-vs-bar-fantasy-prediction-real-valladolid-vs-barcelona-best-fantasy-picks-for-la-liga-2020-21-match/",
+                "source": "The Sportsrush",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcT1aD7Th8pr-V1uucDfriJhiAdi9C5JfovvLjqDTPLP9AsbWn0lMFLeV1NLuG_P1e7qa_Qh5auQ"
+              },
+              "url": "https://thesportsrush.com/vld-vs-bar-fantasy-prediction-real-valladolid-vs-barcelona-best-fantasy-picks-for-la-liga-2020-21-match/",
+              "snippet": "VLD Vs BAR Fantasy Team Probable Playing 11 And Match Report: Barcelona&#39;s qualms continue with the side seeing its two match winning spree being&nbsp;..."
+            },
+            {
+              "title": "Real Valladolid vs Barcelona, La Liga: Final Score 0-3, Barça ...",
+              "timeAgo": "22h ago",
+              "source": "Barca Blaugranes",
+              "image": {
+                "newsUrl": "https://www.barcablaugranes.com/2020/12/22/22194076/real-valladolid-barcelona-la-liga-final-score-match-report-recap-reactions",
+                "source": "Barca Blaugranes",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTOIT4anZE3pWCflJ1A3vd-qrF64bCxb8a1sPEZMsR5iF7QgXJIEOSnuGjurXGgy22dyATrAalq"
+              },
+              "url": "https://www.barcablaugranes.com/2020/12/22/22194076/real-valladolid-barcelona-la-liga-final-score-match-report-recap-reactions",
+              "snippet": "Barcelona will go into the Christmas break with a four-game unbeaten streak in La Liga and a third win in that span thanks to a 3-0 victory over Real Valladolid at&nbsp;..."
+            },
+            {
+              "title": "Valladolid vs Barcelona: Lionel Messi Breaks Pele&#39;s Record in 3-0 Win",
+              "timeAgo": "16h ago",
+              "source": "India.com",
+              "image": {
+                "newsUrl": "https://www.india.com/sports/football-valladolid-vs-barcelona-lionel-messi-breaks-peles-record-in-3-0-win-4285060/",
+                "source": "India.com",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSPnimbbHSAFR64870PuzChU_aykUBtCmMv8T_LRePkltFQNPr77dwUme2u9smVmR1lEyeFjdZn"
+              },
+              "url": "https://www.india.com/sports/football-valladolid-vs-barcelona-lionel-messi-breaks-peles-record-in-3-0-win-4285060/",
+              "snippet": "Check out the Lionel Messi goal that broke Pele&#39;s record for most goals scored for a single club. Also check La Liga Valladolid vs Barcelona match result."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Valladolid+vs+Barcelona#Valladolid%20vs%20Barcelona"
+        },
+        {
+          "title": {
+            "query": "The Midnight Sky",
+            "exploreLink": "/trends/explore?q=The+Midnight+Sky&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "10K+",
+          "relatedQueries": [
+            {
+              "query": "Midnight Sky",
+              "exploreLink": "/trends/explore?q=Midnight+Sky&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.nytimes.com/2020/12/23/movies/george-clooney-midnight-sky.html",
+            "source": "The New York Times",
+            "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTphyQmVm_rBnKvRcTBSO2KXVu0anw-5CISo_Ma_dmpDbv-Oes-aM2BKr8nOl57RW1-mm9qhmbj"
+          },
+          "articles": [
+            {
+              "title": "George Clooney on &#39;The Midnight Sky&#39; and Donald Trump",
+              "timeAgo": "2h ago",
+              "source": "The New York Times",
+              "image": {
+                "newsUrl": "https://www.nytimes.com/2020/12/23/movies/george-clooney-midnight-sky.html",
+                "source": "The New York Times",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTphyQmVm_rBnKvRcTBSO2KXVu0anw-5CISo_Ma_dmpDbv-Oes-aM2BKr8nOl57RW1-mm9qhmbj"
+              },
+              "url": "https://www.nytimes.com/2020/12/23/movies/george-clooney-midnight-sky.html",
+              "snippet": "His new movie is on Netflix, but the actor-director says theaters won&#39;t go away and Hollywood will be fine. He&#39;s not so sure about Washington."
+            },
+            {
+              "title": "&#39;The Midnight Sky&#39; Ending Explained: George Clooney&#39;s Netflix ...",
+              "timeAgo": "4h ago",
+              "source": "Decider",
+              "image": {
+                "newsUrl": "https://decider.com/2020/12/23/the-midnight-sky-ending-explained-netflix/",
+                "source": "Decider",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRW9g02njMIzugp4toowYo4GFo7K4qFAF1JtzdPRDqkQFZxpryeedwKPlP2Elu-mgbjRmMvXLz1"
+              },
+              "url": "https://decider.com/2020/12/23/the-midnight-sky-ending-explained-netflix/",
+              "snippet": "Confused about The Midnight Sky ending? Decider breaks down the plot twist of George Clooney&#39;s new Netflix movie."
+            },
+            {
+              "title": "George Clooney says there are many rewards in The Midnight Sky ...",
+              "timeAgo": "2h ago",
+              "source": "Radio Times",
+              "image": {
+                "newsUrl": "https://www.radiotimes.com/news/on-demand/2020-12-23/the-midnight-sky-george-clooney-rewards-news/",
+                "source": "Radio Times",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTSwiFMeSo5xKwXf1FcYYOXKMryjoL23oVINpQxngTyTB2JVNOEoepVIPnFBVxUbAdZMc6nv_2y"
+              },
+              "url": "https://www.radiotimes.com/news/on-demand/2020-12-23/the-midnight-sky-george-clooney-rewards-news/",
+              "snippet": "The actor and director George Clooney explains what drew him to the Netflix futuristic thriller The Midnight Sky, his first film in almost four years."
+            },
+            {
+              "title": "Most Of The Midnight Sky Cast Has Already Been To Space — Er ...",
+              "timeAgo": "8h ago",
+              "source": "Refinery29",
+              "image": {
+                "newsUrl": "https://www.refinery29.com/en-us/2020/12/10235395/the-midnight-sky-netflix-movie-cast-characters-actors",
+                "source": "Refinery29",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTxe5UUcnrUzz_J1VPcsWnd5zbqCOlP68QCdRWIvcwyqKKC8B5RrN6DMCS2v9UkhP2z-byqnSTh"
+              },
+              "url": "https://www.refinery29.com/en-us/2020/12/10235395/the-midnight-sky-netflix-movie-cast-characters-actors",
+              "snippet": "Nearly every person in this crew was extra prepared to take the galaxy on again in &quot;The Midnight Sky.&quot;"
+            },
+            {
+              "title": "&lt;i&gt;The Midnight Sky&lt;/i&gt; Is Occasionally Poetic and Often Boring ...",
+              "timeAgo": "10h ago",
+              "source": "TIME",
+              "image": {
+                "newsUrl": "https://time.com/5922669/midnight-sky-review-netflix/",
+                "source": "TIME",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQgMB75flOzVkUfVWmgTtkm8cs5JQ1KSimc0Wbt_wYl2UJCaQLWo2oIUAh-uRdvrzOHM2f8V3K7"
+              },
+              "url": "https://time.com/5922669/midnight-sky-review-netflix/",
+              "snippet": "George Clooney directs and stars in a glum science-fiction film that has moments of poetic moodiness and one great performance."
+            },
+            {
+              "title": "&#39;Midnight Sky&#39; ending: Why George Clooney chose hope",
+              "timeAgo": "5h ago",
+              "source": "Los Angeles Times",
+              "url": "https://www.latimes.com/entertainment-arts/movies/story/2020-12-23/midnight-sky-netflix-ending-george-clooney",
+              "snippet": "George Clooney balances hope and despair in his ambitious postapocalyptic sci-fi film &#39;The Midnight Sky.&#39;"
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=The+Midnight+Sky#The%20Midnight%20Sky"
+        },
+        {
+          "title": {
+            "query": "XRP",
+            "exploreLink": "/trends/explore?q=XRP&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [
+            {
+              "query": "xrp news",
+              "exploreLink": "/trends/explore?q=xrp+news&date=now+7-d&geo=AU"
+            }
+          ],
+          "image": {
+            "newsUrl": "https://www.bloomberg.com/news/articles/2020-12-23/high-flying-crypto-fund-dumps-xrp-with-ripple-in-sec-hot-water",
+            "source": "Bloomberg",
+            "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTahaILjH4HWSeLuEnv9AurKn_5uMY-OrWORi23SR3U2ztW00NpXdKX_k_ilFAYwQejju0D9Hiu"
+          },
+          "articles": [
+            {
+              "title": "High-Flying Crypto Fund Dumps XRP With Ripple in SEC &#39;Hot Water&#39;",
+              "timeAgo": "2h ago",
+              "source": "Bloomberg",
+              "image": {
+                "newsUrl": "https://www.bloomberg.com/news/articles/2020-12-23/high-flying-crypto-fund-dumps-xrp-with-ripple-in-sec-hot-water",
+                "source": "Bloomberg",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTahaILjH4HWSeLuEnv9AurKn_5uMY-OrWORi23SR3U2ztW00NpXdKX_k_ilFAYwQejju0D9Hiu"
+              },
+              "url": "https://www.bloomberg.com/news/articles/2020-12-23/high-flying-crypto-fund-dumps-xrp-with-ripple-in-sec-hot-water",
+              "snippet": "Bitwise Asset Management is dumping what was the world&#39;s third-largest cryptocurrency after Ripple Labs Inc. and its top executives were accused by U.S.&nbsp;..."
+            },
+            {
+              "title": "Cryptocurrency XRP plunges 25% after SEC files lawsuit against ...",
+              "timeAgo": "11h ago",
+              "source": "CNBC",
+              "image": {
+                "newsUrl": "https://www.cnbc.com/2020/12/23/cryptocurrency-xrp-plunges-25percent-after-sec-files-lawsuit-against-ripple.html",
+                "source": "CNBC",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTdDf07FHnvDvldWqbWIXYQg8-5DHaalv1IFhZHv6z-K35PD0zO9FMfD8VqGlTBZHTTgPWRS2in"
+              },
+              "url": "https://www.cnbc.com/2020/12/23/cryptocurrency-xrp-plunges-25percent-after-sec-files-lawsuit-against-ripple.html",
+              "snippet": "The SEC is suing Ripple and two of its executives over the alleged sale of unregistered securities."
+            },
+            {
+              "title": "SEC sues Ripple and two executives for selling XRP crypto: A $1.3 ...",
+              "timeAgo": "4h ago",
+              "source": "CNN",
+              "image": {
+                "newsUrl": "https://www.cnn.com/2020/12/23/investing/ripple-sec-lawsuit-trnd/index.html",
+                "source": "CNN",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTBM_tUW5oySCy-EcfZ9Dl9s7eILUGBgwqZPLrY8tUYBgVk_aU-pWvI5qCx5cGxAw94WI3KAAVr"
+              },
+              "url": "https://www.cnn.com/2020/12/23/investing/ripple-sec-lawsuit-trnd/index.html",
+              "snippet": "The US Securities and Exchange Commission filed a lawsuit against cryptocurrency platform Ripple, its CEO, and its chairman, for orchestrating securities fraud&nbsp;..."
+            },
+            {
+              "title": "Ripple&#39;s XRP token has fallen more than 30% after the SEC filed a ...",
+              "timeAgo": "8h ago",
+              "source": "Business Insider",
+              "image": {
+                "newsUrl": "https://www.businessinsider.com/ripple-xrp-crypto-token-falls-after-sec-lawsuit-over-sales-2020-12",
+                "source": "Business Insider",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcScc6imgaIDbkHxjsroEx7p1LvUJTVKl2IS53qQ08nVC8cXl1BrlN7nq5BiCodjWH6zmElbcJBz"
+              },
+              "url": "https://www.businessinsider.com/ripple-xrp-crypto-token-falls-after-sec-lawsuit-over-sales-2020-12",
+              "snippet": "A ripple coin stands on a table Thomas Trutschel/Getty Images Ripple&#39;s XRP cryptocurrency tumbled by as much 32% on Wednesday, after the US reg..."
+            },
+            {
+              "title": "SEC Charges Ripple With Selling $1.3 Billion In Unregistered ...",
+              "timeAgo": "1d ago",
+              "source": "Forbes",
+              "image": {
+                "newsUrl": "https://www.forbes.com/sites/jonathanponciano/2020/12/22/ripples-xrp-loses-2-billion-in-market-value-after-ceo-warns-of-shocking-sec-suit/",
+                "source": "Forbes",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSrDmavVgdl0sM5ZbfwxEIDSwJa48Oh_7F4UDqEaPkIk7oElRz8k2wUPtro5vtVFE6YIGULjoNO"
+              },
+              "url": "https://www.forbes.com/sites/jonathanponciano/2020/12/22/ripples-xrp-loses-2-billion-in-market-value-after-ceo-warns-of-shocking-sec-suit/",
+              "snippet": "The price of Ripple&#39;s XRP, the world&#39;s third-largest cryptocurrency, has tumbled more than 10% in the past 24 hours."
+            },
+            {
+              "title": "Ripple: Davos man no longer",
+              "timeAgo": "7h ago",
+              "source": "Financial Times",
+              "image": {
+                "newsUrl": "https://www.ft.com/content/524e82f6-3e7f-4de4-847f-4a748fae2653",
+                "source": "Financial Times",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcQnt8gAf8qeZK8xQE_wtZ0yZiukoHdL9OCZjHA5Bfqp49mKqZS8qxj3Szj4OFliVVNNsH6ySAQb"
+              },
+              "url": "https://www.ft.com/content/524e82f6-3e7f-4de4-847f-4a748fae2653",
+              "snippet": "Back in 2016, within the taupe-coloured finishings of the main Davos conference centre used by the World Economic Forum to shut down the Swiss ski resort&nbsp;..."
+            },
+            {
+              "title": "Bitwise Liquidates XRP Position in Crypto Index Fund Following ...",
+              "timeAgo": "4h ago",
+              "source": "Coindesk",
+              "image": {
+                "newsUrl": "https://www.coindesk.com/bitwise-liquidates-xrp-position-in-crypto-index-fund-following-sec-suit-against-ripple",
+                "source": "Coindesk",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRiPRN5Fq5b5qp0RH6Ir0s1i8LhCTpvlGmigRGjHZhExNF9uZ7_kukkIRrIop4hJ1jy8cae6X2G"
+              },
+              "url": "https://www.coindesk.com/bitwise-liquidates-xrp-position-in-crypto-index-fund-following-sec-suit-against-ripple",
+              "snippet": "Crypto money manager Bitwise has liquidated $9.3 million worth of XRP in its crypto index fund following SEC action against Ripple."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=XRP#XRP"
+        },
+        {
+          "title": {
+            "query": "Coming To America 2",
+            "exploreLink": "/trends/explore?q=Coming+To+America+2&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://thewest.com.au/entertainment/movies/coming-2-america-trailer-released-with-eddie-murphy-in-starring-role-ng-b881755173z",
+            "source": "The West Australian",
+            "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQKnsq3gl5salLO7UCyNbE7FKPBspJFQWFMUSGI-Do5ycz1rOCt95AK4Q_FkjJ4z4Kc5XxNufXZ"
+          },
+          "articles": [
+            {
+              "title": "Coming 2 America trailer released with Eddie Murphy in starring role",
+              "timeAgo": "18h ago",
+              "source": "The West Australian",
+              "image": {
+                "newsUrl": "https://thewest.com.au/entertainment/movies/coming-2-america-trailer-released-with-eddie-murphy-in-starring-role-ng-b881755173z",
+                "source": "The West Australian",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQKnsq3gl5salLO7UCyNbE7FKPBspJFQWFMUSGI-Do5ycz1rOCt95AK4Q_FkjJ4z4Kc5XxNufXZ"
+              },
+              "url": "https://thewest.com.au/entertainment/movies/coming-2-america-trailer-released-with-eddie-murphy-in-starring-role-ng-b881755173z",
+              "snippet": "It&#39;s been 32 years since Eddie Murphy&#39;s Prince Akeem graced our screens but he&#39;s coming back next year with a long-awaited sequel."
+            },
+            {
+              "title": "Three Budget Friendly Advertising Strategies For 2021",
+              "timeAgo": "23h ago",
+              "source": "WSFM",
+              "image": {
+                "newsUrl": "https://www.wsfm.com.au/entertainment/the-first-trailer-for-coming-to-america-2-is-here-and-yep-eddie-murphys-still-hilarious/",
+                "source": "WSFM",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTUqQnTq5VqI6DUPlMnKTtrWwDb5qrFUAqKAfNsWAFnewy30JX38dVhPF6kHYFrXQi9w0ivBW8h"
+              },
+              "url": "https://www.wsfm.com.au/entertainment/the-first-trailer-for-coming-to-america-2-is-here-and-yep-eddie-murphys-still-hilarious/",
+              "snippet": "For many business owners 2020 has brought significant hardship. We spoke to advertising guru, Adam Williams who shared some sage advice on achieving cut&nbsp;..."
+            },
+            {
+              "title": "&#39;Coming 2 America&#39; trailer shows Eddie Murphy return to Zamunda ...",
+              "timeAgo": "6h ago",
+              "source": "CNN",
+              "image": {
+                "newsUrl": "https://www.cnn.com/2020/12/23/entertainment/coming-2-america-eddie-murphy/index.html",
+                "source": "CNN",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTMfbu9VVKOHpH2GgC3hJ7wbU5CLV4HuZSzQN8uxprQGhfmfiSad8yNOf3wfeK94juoj54byx7O"
+              },
+              "url": "https://www.cnn.com/2020/12/23/entertainment/coming-2-america-eddie-murphy/index.html",
+              "snippet": "Eddie Murphy is back in to his royal homeland of Zamunda in &quot;Coming 2 America.&quot; The first official trailer for the much-anticipated sequel has dropped, and&nbsp;..."
+            },
+            {
+              "title": "Eddie Murphy&#39;s Coming to America 2 trailer is here",
+              "timeAgo": "21h ago",
+              "source": "91.7 The Wave",
+              "image": {
+                "newsUrl": "https://www.917thewave.com.au/news/entertainment-news/eddie-murphys-coming-to-america-2-trailer-is-here/",
+                "source": "91.7 The Wave",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQ5g_mUIEIPcwIs04cdcPr5YTumw4Dr2e8LBxKYgquVBNZ5D8loYcoNYKPPA5P5C2bjW70lS88A"
+              },
+              "url": "https://www.917thewave.com.au/news/entertainment-news/eddie-murphys-coming-to-america-2-trailer-is-here/",
+              "snippet": "The King is back! Finally, after 32 years... we have a sequel to one of the most iconic comedies of the 80s. Coming to America. Set in the lush and royal country&nbsp;..."
+            },
+            {
+              "title": "&#39;Coming to America&#39; is back in first trailer for sequel starring Eddie ...",
+              "timeAgo": "1d ago",
+              "source": "Today.com",
+              "image": {
+                "newsUrl": "https://www.today.com/popculture/coming-america-back-first-trailer-sequel-starring-eddie-murphy-t204499",
+                "source": "Today.com",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSkaL3w0j67TpV-FsS3Rt5JRHE_Tc2Jh9v2Axdsq-1n7WEYhLuSzcMMzSP7d_VsbxIG_HligQCX"
+              },
+              "url": "https://www.today.com/popculture/coming-america-back-first-trailer-sequel-starring-eddie-murphy-t204499",
+              "snippet": "Eddie Murphy and Arsenio Hall reunite in the &quot;Coming 2 America&quot; trailer. &quot;Coming 2 America&quot; will be released on Prime Video on March 5, 2021."
+            },
+            {
+              "title": "&#39;Coming 2 America&#39; Trailer: Eddie Murphy Returns as King Akeem ...",
+              "timeAgo": "1d ago",
+              "source": "IndieWire",
+              "image": {
+                "newsUrl": "https://www.indiewire.com/2020/12/coming-2-america-trailer-1234606102/",
+                "source": "IndieWire",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTG169rhNKUm5SkykX-T7dIjfvaaORKQoqjz4PU40fRJeza7N2d9mMEfi-g8WCOsuynSIdiKXpf"
+              },
+              "url": "https://www.indiewire.com/2020/12/coming-2-america-trailer-1234606102/",
+              "snippet": "Arsenio Hall and James Earl Jones also reprise their &quot;Coming to America&quot; roles in the sequel; new cast members include Leslie Jones and Tracy Morgan. &middot; Related."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Coming+To+America+2#Coming%20To%20America%202"
+        },
+        {
+          "title": {
+            "query": "Brisbane Heat",
+            "exploreLink": "/trends/explore?q=Brisbane+Heat&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://wwos.nine.com.au/cricket/bbl10-brisbane-heat-adelaide-strikers-gabba-jimmy-peirson/e346268d-4bce-4c1c-b009-2442e44ff47b",
+            "source": "Wide World of Sports",
+            "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTIiDoa5VqEBU7phdC2BPzMPG1XvnCdFpKwAheSVDzRhZPqM1Xtt-G65gW21I1nBP63bknIzyJ5"
+          },
+          "articles": [
+            {
+              "title": "Miracle BBL comeback falls just short",
+              "timeAgo": "8h ago",
+              "source": "Wide World of Sports",
+              "image": {
+                "newsUrl": "https://wwos.nine.com.au/cricket/bbl10-brisbane-heat-adelaide-strikers-gabba-jimmy-peirson/e346268d-4bce-4c1c-b009-2442e44ff47b",
+                "source": "Wide World of Sports",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTIiDoa5VqEBU7phdC2BPzMPG1XvnCdFpKwAheSVDzRhZPqM1Xtt-G65gW21I1nBP63bknIzyJ5"
+              },
+              "url": "https://wwos.nine.com.au/cricket/bbl10-brisbane-heat-adelaide-strikers-gabba-jimmy-peirson/e346268d-4bce-4c1c-b009-2442e44ff47b",
+              "snippet": "A Brisbane Heat outfit inspired by fill-in captain Jimmy Peirson tonight went tantalisingly close to pulling off one of the greatest comeback victories in Big Bash&nbsp;..."
+            },
+            {
+              "title": "The urgent change required in Big Bash",
+              "timeAgo": "1h ago",
+              "source": "Daily Telegraph",
+              "image": {
+                "newsUrl": "https://www.dailytelegraph.com.au/sport/cricket/big-bash/big-bash-league-brisbane-heat-narrowly-fall-short-of-overhauling-adelaide-strikers/news-story/e866682162a11aefcd545b1727273f20",
+                "source": "Daily Telegraph",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQrYaBdyb-ADLQF6OSQMBG0cTn5gJClB2aPJhSQLdgcuuXk_IzGJygIKQSpaoe4hlmRD_GOmGpw"
+              },
+              "url": "https://www.dailytelegraph.com.au/sport/cricket/big-bash/big-bash-league-brisbane-heat-narrowly-fall-short-of-overhauling-adelaide-strikers/news-story/e866682162a11aefcd545b1727273f20",
+              "snippet": "Another umpiring nightmare has marred the Big Bash, with leading players and commentators demanding change. Emma Greenwood. December 23, 2020 - 11:&nbsp;..."
+            },
+            {
+              "title": "&#39;Ridiculous&#39;: Warne slams cricket farce",
+              "timeAgo": "9h ago",
+              "source": "The Mercury",
+              "image": {
+                "newsUrl": "https://www.themercury.com.au/sport/cricket/big-bash/cricket-fans-once-again-demand-drs-in-the-big-bash-league-after-another-umpiring-howler/news-story/5f7db101c8d63859ae2fce521c8d22d4",
+                "source": "The Mercury",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcT3h0KtbFktAMJO5RKiYJaKS8ETmkKV2SCpVaWgvUpd0BKzm0EW9MpoKRzS1hfuo0aOEgCDOpiC"
+              },
+              "url": "https://www.themercury.com.au/sport/cricket/big-bash/cricket-fans-once-again-demand-drs-in-the-big-bash-league-after-another-umpiring-howler/news-story/5f7db101c8d63859ae2fce521c8d22d4",
+              "snippet": "The cricket community has erupted after yet another dreadful umpiring decision, and now Shane Warne has voiced his frustration."
+            },
+            {
+              "title": "Lynn-less, winless Heat beaten in final-over thriller",
+              "timeAgo": "9h ago",
+              "source": "cricket.com.au",
+              "image": {
+                "newsUrl": "https://www.cricket.com.au/news/match-report/brisbane-heat-adelaide-strikers-bbl10-big-bash-league-report-highlights-peirson-lynn-siddle/2020-12-23",
+                "source": "cricket.com.au",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSexQPkB4iWuNviRuLf3i37azLkBBEL7hVRftWCjsI-6M9odXbKvvIZFwW9BjbKxoLrTffU-UIJ"
+              },
+              "url": "https://www.cricket.com.au/news/match-report/brisbane-heat-adelaide-strikers-bbl10-big-bash-league-report-highlights-peirson-lynn-siddle/2020-12-23",
+              "snippet": "Classy half-century against all odds from stand-in skipper Jimmy Peirson in vain as Brisbane Heat fall three runs short of miracle victory against Adelaide&nbsp;..."
+            },
+            {
+              "title": "What just happened? Heat STILL winless after one of BBL&#39;s most ...",
+              "timeAgo": "9h ago",
+              "source": "Fox Sports",
+              "image": {
+                "newsUrl": "https://www.foxsports.com.au/cricket/domestic-cricket/big-bash/cricket-live-big-bash-league-bbl-heat-vs-strikers-score-how-to-watch-video-teams-tv/news-story/4b745444bad54f0573a4794d13f42450",
+                "source": "Fox Sports",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQl9g-v2mRL39FWWLYZwXGQWawhAFD1Y7xey8MheF7u8C0sGtoZTtsll44dH55sZmsIBxvamUxU"
+              },
+              "url": "https://www.foxsports.com.au/cricket/domestic-cricket/big-bash/cricket-live-big-bash-league-bbl-heat-vs-strikers-score-how-to-watch-video-teams-tv/news-story/4b745444bad54f0573a4794d13f42450",
+              "snippet": "Watch the Boxing Day Test between Australia and India LIVE on Fox Cricket, coverage starts Saturday at 9:30am AEDT!"
+            },
+            {
+              "title": "BBL 2020-21: Adelaide Strikers down Brisbane Heat in low-scoring ...",
+              "timeAgo": "4h ago",
+              "source": "Samaa News",
+              "image": {
+                "newsUrl": "https://www.samaa.tv/sports/2020/12/brisbane-heat-vs-adelaide-strikers-bbl-2020-21/",
+                "source": "Samaa News",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQceEFeWhbBIMbBwFkCKKgdkgLVF_kQoBgg3NIhp-lIcXwljCZbz1LfgY4X6WcYWGe4gG13-F3_"
+              },
+              "url": "https://www.samaa.tv/sports/2020/12/brisbane-heat-vs-adelaide-strikers-bbl-2020-21/",
+              "snippet": "Adelaide Strikers registered a narrow two-run win over Brisbane Heat in their thrilling Big Bash League 2020-21 fixture in Brisbane on Wednesday. Being sent to&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Brisbane+Heat#Brisbane%20Heat"
+        },
+        {
+          "title": {
+            "query": "Nigella Lawson",
+            "exploreLink": "/trends/explore?q=Nigella+Lawson&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://www.bustle.com/entertainment/nigella-lawson-skipping-turkey-christmas-2020",
+            "source": "Bustle",
+            "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRk-ZroKnlVRGml6ViNO65GSFc9UHd4hPOH4mT_GomRa_t-XUEL4NCQsd0bO8LiQ4Z9zT_mcCne"
+          },
+          "articles": [
+            {
+              "title": "Why Nigella Is Skipping Turkey This Christmas – &amp; What She&#39;s ...",
+              "timeAgo": "10h ago",
+              "source": "Bustle",
+              "image": {
+                "newsUrl": "https://www.bustle.com/entertainment/nigella-lawson-skipping-turkey-christmas-2020",
+                "source": "Bustle",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRk-ZroKnlVRGml6ViNO65GSFc9UHd4hPOH4mT_GomRa_t-XUEL4NCQsd0bO8LiQ4Z9zT_mcCne"
+              },
+              "url": "https://www.bustle.com/entertainment/nigella-lawson-skipping-turkey-christmas-2020",
+              "snippet": "Deciding which meat will be the centrepiece of your Christmas dinner can be an arduous task. But with many families across the country celebrating on a smaller&nbsp;..."
+            },
+            {
+              "title": "Amid pandemic, Nigella Lawson won&#39;t be cooking this Christmas ...",
+              "timeAgo": "6h ago",
+              "source": "The Indian Express",
+              "image": {
+                "newsUrl": "https://indianexpress.com/article/lifestyle/food-wine/pandemic-nigella-lawson-wont-cook-christmas-turkey-first-time-ever-7116824/",
+                "source": "The Indian Express",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRdwF7_dvSR1oaHiAP_bEDfu8IZzP4zMFPiiZl_AFtUmZAPof4zjBLhy4RucEmzl7NrzbgKrbtm"
+              },
+              "url": "https://indianexpress.com/article/lifestyle/food-wine/pandemic-nigella-lawson-wont-cook-christmas-turkey-first-time-ever-7116824/",
+              "snippet": "The 60-year-old chef said that the change of plans was a result of the ongoing coronavirus crisis in UK as most people would not be able to celebrate the festival&nbsp;..."
+            },
+            {
+              "title": "Nigella Lawson reveals why she will not be cooking turkey this ...",
+              "timeAgo": "10h ago",
+              "source": "MyLondon",
+              "image": {
+                "newsUrl": "https://www.mylondon.news/news/celebs/nigella-lawson-reveals-not-cooking-19510577",
+                "source": "MyLondon",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRTkm8MknngL8XOrLRR_v0_24026_3fNGJ8PJGFQYWNbcqoiV0mlfGlZYCamuihOSTvsyAUdKE1"
+              },
+              "url": "https://www.mylondon.news/news/celebs/nigella-lawson-reveals-not-cooking-19510577",
+              "snippet": "Nigella Lawson will not cook a Christmas turkey this year “for the first time ever”. The TV chef and food writer, who celebrated her 60th birthday in January, will&nbsp;..."
+            },
+            {
+              "title": "Nigella Lawson won&#39;t cook a Christmas Day turkey for the first year ...",
+              "timeAgo": "8h ago",
+              "source": "Yahoo Finance UK",
+              "image": {
+                "newsUrl": "https://uk.finance.yahoo.com/news/nigella-lawson-wont-cook-christmas-turkey-first-year-122750156.html",
+                "source": "Yahoo Finance UK",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcSRD1O5lM0sptWTAaDoDBVpEweJJ8yB-xwmZQKtKceSJD-Zu2xStT-vCyIC6s_xq45WkXdw7sDC"
+              },
+              "url": "https://uk.finance.yahoo.com/news/nigella-lawson-wont-cook-christmas-turkey-first-year-122750156.html",
+              "snippet": "The TV cook says it would be too sad to go with a traditional lunch this year."
+            },
+            {
+              "title": "How to cook a turkey, according to Jamie Oliver, Nigella Lawson ...",
+              "timeAgo": "9h ago",
+              "source": "iNews",
+              "image": {
+                "newsUrl": "https://inews.co.uk/inews-lifestyle/christmas/how-cook-turkey-recipes-christmas-dinner-2020-jamie-oliver-nigella-lawson-chefs-805498",
+                "source": "iNews",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcSF2Oh8u5_go953rMC5vLo3wz_57kSg-ShV_bOTuosuo9sKNLnQniUdMFnJn3KEQzkMBHBQAhYX"
+              },
+              "url": "https://inews.co.uk/inews-lifestyle/christmas/how-cook-turkey-recipes-christmas-dinner-2020-jamie-oliver-nigella-lawson-chefs-805498",
+              "snippet": "There&#39;s plenty of advice from famous chefs and cooks on how to make your turkey this year one to remember for all the right reasons."
+            },
+            {
+              "title": "Why Nigella Lawson Is Ditching The Turkey This Christmas",
+              "timeAgo": "8h ago",
+              "source": "Grazia",
+              "image": {
+                "newsUrl": "https://graziadaily.co.uk/life/home/nigella-lawson-christmas-turkey/",
+                "source": "Grazia",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcQ_HmcpRwyT9eGz7fbwgsPuHXi79refHZRFquMVciTY9XKs6IS5VghFCGXiBQklqz020yh8o7Tb"
+              },
+              "url": "https://graziadaily.co.uk/life/home/nigella-lawson-christmas-turkey/",
+              "snippet": "TV chef Nigella Lawson has a new recipe up her sleeve instead of turkey this Christmas. Read more on Grazia."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Nigella+Lawson#Nigella%20Lawson"
+        },
+        {
+          "title": {
+            "query": "Bindi Irwin",
+            "exploreLink": "/trends/explore?q=Bindi+Irwin&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://www.perthnow.com.au/entertainment/celebrity/bindi-irwin-shares-sweet-bumpdate-26-weeks-into-preganancy-ng-b881755236z",
+            "source": "PerthNow",
+            "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTkJmDQehpd-xPrMBQeU7_8KuXhNcgBuT2vRIW34w2bsaD594lzNZz2HNl7b72xihOxrKWliVwShQ"
+          },
+          "articles": [
+            {
+              "title": "Bindi Irwin shares sweet &#39;bumpdate&#39; 26 weeks into preganancy",
+              "timeAgo": "18h ago",
+              "source": "PerthNow",
+              "image": {
+                "newsUrl": "https://www.perthnow.com.au/entertainment/celebrity/bindi-irwin-shares-sweet-bumpdate-26-weeks-into-preganancy-ng-b881755236z",
+                "source": "PerthNow",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTkJmDQehpd-xPrMBQeU7_8KuXhNcgBuT2vRIW34w2bsaD594lzNZz2HNl7b72xihOxrKWliVwShQ"
+              },
+              "url": "https://www.perthnow.com.au/entertainment/celebrity/bindi-irwin-shares-sweet-bumpdate-26-weeks-into-preganancy-ng-b881755236z",
+              "snippet": "A clearly excited Bindi Irwin has posted a sweet update on her and husband Chandler Powell&#39;s unborn daughter."
+            },
+            {
+              "title": "&#39;You look beautiful&#39;: Bindi Irwin shares new photo of baby bump",
+              "timeAgo": "18h ago",
+              "source": "Starts at 60",
+              "image": {
+                "newsUrl": "https://startsat60.com/media/news/celebrity/bindi-irwin-shares-new-photo-of-baby-bump",
+                "source": "Starts at 60",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcRSeefYyPikT_EKGu5E3pXW-DQJdlDCNQNAqfrKBYxdjJlNQ6-cP6K0cWxM0RM5C0JsLB0ltD41"
+              },
+              "url": "https://startsat60.com/media/news/celebrity/bindi-irwin-shares-new-photo-of-baby-bump",
+              "snippet": "Bindi is clearly excited to welcome her first child with husband Chandler Powell next year."
+            },
+            {
+              "title": "Pregnant Bindi Irwin shares photo of her bump at 26 weeks",
+              "timeAgo": "1d ago",
+              "source": "Today.com",
+              "image": {
+                "newsUrl": "https://www.today.com/parents/pregnant-bindi-irwin-shares-photo-her-bump-26-weeks-t204539",
+                "source": "Today.com",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcT4QqAigdGDUBo9RM6L8HeSQLn8V4A30bxf8jhHAXYMcfBJRIPhr4aKVfw9z425jgsqIinzUtwy"
+              },
+              "url": "https://www.today.com/parents/pregnant-bindi-irwin-shares-photo-her-bump-26-weeks-t204539",
+              "snippet": "The daughter of late &quot;Crocodile Hunter&quot; Steve Irwin is expecting a baby girl in the new year. Dec. 22, 2020, 10:02 AM PST. By Rachel Paula Abrahamson."
+            },
+            {
+              "title": "Bindi Irwin Shares Rare Baby Bump Photo as Her &quot;Remarkable ...",
+              "timeAgo": "23h ago",
+              "source": "E! Online",
+              "image": {
+                "newsUrl": "https://www.eonline.com/au/news/1221403/bindi-irwin-shares-rare-baby-bump-photo-as-her-remarkable-pregnancy-continues",
+                "source": "E! Online",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcRL-VH83WX3CVyc0KIVlk5k8CZSB6B-Vt78oPhmsYTXYEAqCCZ5yqftdLxtkfW9Rmq3gRwI8esb"
+              },
+              "url": "https://www.eonline.com/au/news/1221403/bindi-irwin-shares-rare-baby-bump-photo-as-her-remarkable-pregnancy-continues",
+              "snippet": "Crikey! It&#39;s the Irwins star Bindi Irwin gave fans a look at her baby bump 26 weeks into her pregnancy. Read what she said about her &quot;remarkable journey&quot;&nbsp;..."
+            },
+            {
+              "title": "Bindi Irwin Stuns In Latest Pregnancy Snap",
+              "timeAgo": "23h ago",
+              "source": "SmoothFM",
+              "image": {
+                "newsUrl": "https://www.smooth.com.au/entertainment/celebrity/bindi-irwin-stuns-in-latest-pregancy-snap/",
+                "source": "SmoothFM",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRWdxfc0-Ikopx9waQDKfzjV7n4qyRLvYsGLiDjE_dsl1yh6wKuk-gfam3vu2R3yFAtq56ul_-T"
+              },
+              "url": "https://www.smooth.com.au/entertainment/celebrity/bindi-irwin-stuns-in-latest-pregancy-snap/",
+              "snippet": "Aussie sweetheart, Bindi Irwin has taken to Instagram to share her latest &#39;bumpdate&#39;, revealing she&#39;s now 26-weeks pregnant."
+            },
+            {
+              "title": "Bindi Irwin Flaunts Growing Baby Bump, It&#39;s The Size Of A ...",
+              "timeAgo": "1h ago",
+              "source": "The Blast",
+              "image": {
+                "newsUrl": "https://www.theblast.com/151231/bindi-irwin-flaunts-growing-baby-bump-its-the-size-of-a-shingleb",
+                "source": "The Blast",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQn4VUEh4rpR1eYRZd_i5jlLVu1RkMGDTBt4n0otOpSq9RBmekxobaivJBtQEUhlWGmZ9sO6DTZ"
+              },
+              "url": "https://www.theblast.com/151231/bindi-irwin-flaunts-growing-baby-bump-its-the-size-of-a-shingleb",
+              "snippet": "Bindi Irwin is 26-weeks pregnant and counting! advertisement. And, just like a true animal lover, she is sharing a recent picture of her growing baby bump and&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Bindi+Irwin#Bindi%20Irwin"
+        },
+        {
+          "title": {
+            "query": "Apple Car",
+            "exploreLink": "/trends/explore?q=Apple+Car&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "5K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://www.autocar.co.uk/car-news/technology-news/apple-car-targeting-2024-production-self-driving-ability",
+            "source": "Autocar",
+            "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR0K1y9CL9GVlYsmF__VYYiQXzk4RaqLgZmpUhb4Hw_PlaB5hlfgtoKMUMjK9vuR_KKyb6Z-I1z"
+          },
+          "articles": [
+            {
+              "title": "Apple car targeting 2024 production with self-driving ability",
+              "timeAgo": "10h ago",
+              "source": "Autocar",
+              "image": {
+                "newsUrl": "https://www.autocar.co.uk/car-news/technology-news/apple-car-targeting-2024-production-self-driving-ability",
+                "source": "Autocar",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR0K1y9CL9GVlYsmF__VYYiQXzk4RaqLgZmpUhb4Hw_PlaB5hlfgtoKMUMjK9vuR_KKyb6Z-I1z"
+              },
+              "url": "https://www.autocar.co.uk/car-news/technology-news/apple-car-targeting-2024-production-self-driving-ability",
+              "snippet": "Apple is reportedly planning to launch its first passenger car in 2024, using its own battery technology to &quot;radically&quot; reduce the price of EV batteries. According to&nbsp;..."
+            },
+            {
+              "title": "Is Project Titan, Apple&#39;s car project, making a comeback? - TechHQ ...",
+              "timeAgo": "18h ago",
+              "source": "TechHQ",
+              "image": {
+                "newsUrl": "https://techhq.com/2020/12/is-project-titan-apples-car-project-making-a-comeback/",
+                "source": "TechHQ",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRuwa-XgUHXAKyxAAF7SjVBbY8rUO1NXksohLmIErcgiEWi-4lObXE9BcIecyJG8S-EMjLiDEHa"
+              },
+              "url": "https://techhq.com/2020/12/is-project-titan-apples-car-project-making-a-comeback/",
+              "snippet": "Project Titan has proceeded unevenly since 2014 when it first started to design its own vehicle from scratch. Now, Apple has plans to produce an electric."
+            },
+            {
+              "title": "Obvious reasons why a Tesla-crushing Apple car won&#39;t exist",
+              "timeAgo": "6h ago",
+              "source": "Yahoo Finance",
+              "image": {
+                "newsUrl": "https://finance.yahoo.com/news/obvious-reasons-why-a-true-teslacrushing-apple-car-wont-exist-143346203.html",
+                "source": "Yahoo Finance",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcSplNIoQSkqI8fWqqjDgm_MpdXqj1AvCKvMzxgRb2mH-UIycJS2mbqfLrd6kh0Z7zGRs142Hh40"
+              },
+              "url": "https://finance.yahoo.com/news/obvious-reasons-why-a-true-teslacrushing-apple-car-wont-exist-143346203.html",
+              "snippet": "Apple (AAPL) could start production on its own electric vehicle as early as 2024, according to a report out of Reuters this week. The car will be powered by a “&nbsp;..."
+            },
+            {
+              "title": "Apple Car could bolster services but low margins limit upside ...",
+              "timeAgo": "2h ago",
+              "source": "AppleInsider",
+              "image": {
+                "newsUrl": "https://appleinsider.com/articles/20/12/23/apple-car-could-bolster-services-but-low-margins-limit-upside-analyst-says",
+                "source": "AppleInsider",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTSCL8aIX6UM-9OcUQa5qd8e29H4jg7oWbEsGSpFser4oB162TVmIFaHlTEzBezwfWDHqwwNoTn"
+              },
+              "url": "https://appleinsider.com/articles/20/12/23/apple-car-could-bolster-services-but-low-margins-limit-upside-analyst-says",
+              "snippet": "Goldman Sachs believes that an &quot;Apple Car&quot; makes sense as a services-supporting hardware platform, but notes that the high costs of releasing a car could&nbsp;..."
+            },
+            {
+              "title": "Opinion: Here are some important questions about an Apple Car we ...",
+              "timeAgo": "1h ago",
+              "source": "9to5Mac",
+              "image": {
+                "newsUrl": "https://9to5mac.com/2020/12/23/opinion-apple-car-questions/",
+                "source": "9to5Mac",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQUHr6vixNe_zLrBwWnInHK3N0OkHX047dbBU0h2A5G6zbLqdH2xlOgAZuJRoIc6aBJa6YkzJv7"
+              },
+              "url": "https://9to5mac.com/2020/12/23/opinion-apple-car-questions/",
+              "snippet": "We&#39;ve known that Apple has been working on a car for around six years now. Apple always tries to do their work in secret, but whenever they attempt to enter an&nbsp;..."
+            },
+            {
+              "title": "Apple Car will use &#39;next level&#39; battery, may arrive by 2024! - Micky ...",
+              "timeAgo": "8h ago",
+              "source": "Micky News",
+              "image": {
+                "newsUrl": "https://micky.com.au/apple-car-will-use-next-level-battery-may-arrive-by-2024/",
+                "source": "Micky News",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQtAndQ5FI20Ttzsm7oqHA9yEKB-j2tYf8KglpFcJB9AHh_E8-PXJYvXx-wQ2EAeb6fYT8vjHpB"
+              },
+              "url": "https://micky.com.au/apple-car-will-use-next-level-battery-may-arrive-by-2024/",
+              "snippet": "New reports have now cleared the air on the rumored Apple Car. Seems like the company is moving ahead with its self-driving car technology."
+            },
+            {
+              "title": "The Apple Car Is Projected To Launch In 2024",
+              "timeAgo": "15h ago",
+              "source": "EDMTunes",
+              "image": {
+                "newsUrl": "https://www.edmtunes.com/2020/12/the-apple-car-is-projected-to-launch-in-2024/",
+                "source": "EDMTunes",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQdHMKg-uVoYSb6pNmLVG1lIf7Y4GfjlcigilPbqnY-pwgg1TMGuoCZmZ7iajAVcFJNVNU6JH98"
+              },
+              "url": "https://www.edmtunes.com/2020/12/the-apple-car-is-projected-to-launch-in-2024/",
+              "snippet": "Apple is kicking their old &#39;Project Titan&#39; back into high gear. They anticipate for the Apple car to be released in 2024. Watch out Tesla!"
+            },
+            {
+              "title": "The main reason Apple wants to get into the car business, according ...",
+              "timeAgo": "4h ago",
+              "source": "Business Insider",
+              "image": {
+                "newsUrl": "https://www.businessinsider.com/apple-stock-main-reason-wants-exposure-car-business-goldman-says-2020-12",
+                "source": "Business Insider",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQSlZ4FU9UttQxhGXiFxdhxk5e82niRlspkKrhyvN1Dd7x6FMnmmZrLr6RmulCSrxEhq-FcPHTa"
+              },
+              "url": "https://www.businessinsider.com/apple-stock-main-reason-wants-exposure-car-business-goldman-says-2020-12",
+              "snippet": "Goldman also thinks a &quot;car as a service&quot; subscription model could emerge down the road, &quot;which could be of interest to Apple,&quot; the note said."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Apple+Car#Apple%20Car"
+        },
+        {
+          "title": {
+            "query": "Georgia Love",
+            "exploreLink": "/trends/explore?q=Georgia+Love&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "2K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://7news.com.au/sport/afl/bachelorette-cops-sweet-revenge-from-afl-player-after-18-month-wait-c-1821415",
+            "source": "7NEWS.com.au",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQrM0jJwmvorOW6sJOVhM5athsqi2LtMa2c7tvOAlIuRlCS9FvmUGcvV3G9670rRTNJsUrAHGvu"
+          },
+          "articles": [
+            {
+              "title": "Bachelorette Georgia Love cops revenge from Carlton Blues AFL ...",
+              "timeAgo": "22h ago",
+              "source": "7NEWS.com.au",
+              "image": {
+                "newsUrl": "https://7news.com.au/sport/afl/bachelorette-cops-sweet-revenge-from-afl-player-after-18-month-wait-c-1821415",
+                "source": "7NEWS.com.au",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQrM0jJwmvorOW6sJOVhM5athsqi2LtMa2c7tvOAlIuRlCS9FvmUGcvV3G9670rRTNJsUrAHGvu"
+              },
+              "url": "https://7news.com.au/sport/afl/bachelorette-cops-sweet-revenge-from-afl-player-after-18-month-wait-c-1821415",
+              "snippet": "Georgia Love famously dished on Dale Thomas&#39; big night out in 2019 – now the tables have turned."
+            },
+            {
+              "title": "Dale Thomas takes revenge on Georgia Love 18 months after she ...",
+              "timeAgo": "1d ago",
+              "source": "NEWS.com.au",
+              "image": {
+                "newsUrl": "https://www.news.com.au/sport/afl/dale-thomas-takes-revenge-on-georgia-love-18-months-after-she-ratted-on-him/news-story/90805f6fc333177a6082272a5d14490d",
+                "source": "NEWS.com.au",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcSoAZW0MVRnWai273hX0nfh1M01Dl3SUxEtTMIuffW8-TY_afezMKlf_WJ_2dXuU1_ec5VGzssi"
+              },
+              "url": "https://www.news.com.au/sport/afl/dale-thomas-takes-revenge-on-georgia-love-18-months-after-she-ratted-on-him/news-story/90805f6fc333177a6082272a5d14490d",
+              "snippet": "Former Carlton star Dale Thomas enjoyed some long-awaited revenge on TV personality Georgia Love after she dobbed him in for drinking two days before an&nbsp;..."
+            },
+            {
+              "title": "The Bachelorette&#39;s Georgia Love hits back at AFL star Dale Thomas ...",
+              "timeAgo": "16h ago",
+              "source": "Daily Mail",
+              "image": {
+                "newsUrl": "https://www.dailymail.co.uk/tvshowbiz/article-9081407/The-Bachelorettes-Georgia-Love-hits-AFL-star-Dale-Thomas-dredging-Twitter-beef.html",
+                "source": "Daily Mail",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQcCoyuE59b6ppJ4OhIvX3k_bYZGRDF1HUXwTlCn2WrE3qygOiQc5CE5uVPNxzQntkASX8v4ABS"
+              },
+              "url": "https://www.dailymail.co.uk/tvshowbiz/article-9081407/The-Bachelorettes-Georgia-Love-hits-AFL-star-Dale-Thomas-dredging-Twitter-beef.html",
+              "snippet": "The Bachelorette&#39;s Georgia Love has blasted AFL star Dale Thomas for dredging up their Twitter feud, 18 months after she infamously ratted him out for drinking&nbsp;..."
+            },
+            {
+              "title": "AFL: Dale Thomas takes brutal revenge on The Bachelorette&#39;s ...",
+              "timeAgo": "23h ago",
+              "source": "Daily Mail",
+              "image": {
+                "newsUrl": "https://www.dailymail.co.uk/tvshowbiz/article-9080161/AFL-Dale-Thomas-takes-brutal-revenge-Bachelorettes-Georgia-Love.html",
+                "source": "Daily Mail",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTECBODxnLJPtSRRMWNginGz_YY9CGzZXUAXGrC2nnFUxJ_wXrBzudG4b5Y4idQ7Fv6cT8lBOle"
+              },
+              "url": "https://www.dailymail.co.uk/tvshowbiz/article-9080161/AFL-Dale-Thomas-takes-brutal-revenge-Bachelorettes-Georgia-Love.html",
+              "snippet": "The ex-footy star, 33, never forgot the way Georgia, 31, stuck the boot in at one of his lowest moments - and he finally delivered a clapback on Tuesday."
+            },
+            {
+              "title": "AFL icon gets poetic revenge on Bachelorette after infamous incident",
+              "timeAgo": "1d ago",
+              "source": "Yahoo Sport Australia",
+              "image": {
+                "newsUrl": "https://au.sports.yahoo.com/afl-dale-thomas-bachelorette-georgia-love-carlton-drinking-twitter-revenge-202234091.html",
+                "source": "Yahoo Sport Australia",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcR_8xKtMWNxYd3hAYM5QTCQOUORl5keBXNK4jMbsAWZCr8HNMnJFoQzQxyKNyt7-oYMPisKpcEX"
+              },
+              "url": "https://au.sports.yahoo.com/afl-dale-thomas-bachelorette-georgia-love-carlton-drinking-twitter-revenge-202234091.html",
+              "snippet": "The former AFL player had waited 18 months to give the TV personality a taste of her own medicine."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Georgia+Love#Georgia%20Love"
+        },
+        {
+          "title": {
+            "query": "Woolworths prawn recall",
+            "exploreLink": "/trends/explore?q=Woolworths+prawn+recall&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "2K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://7news.com.au/lifestyle/food/woolworths-christmas-prawns-recalled-over-contamination-fears-c-1821868",
+            "source": "7NEWS.com.au",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTzd1LjOHtbsD_EhAJvl8zbvi2hkBkKHx7rNObRcyFw5fpFh3rwFWBl8EOaZQHYfBJUUEyOdkj7"
+          },
+          "articles": [
+            {
+              "title": "Woolworths supermarket Christmas prawns for sale recalled over ...",
+              "timeAgo": "21h ago",
+              "source": "7NEWS.com.au",
+              "image": {
+                "newsUrl": "https://7news.com.au/lifestyle/food/woolworths-christmas-prawns-recalled-over-contamination-fears-c-1821868",
+                "source": "7NEWS.com.au",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcTzd1LjOHtbsD_EhAJvl8zbvi2hkBkKHx7rNObRcyFw5fpFh3rwFWBl8EOaZQHYfBJUUEyOdkj7"
+              },
+              "url": "https://7news.com.au/lifestyle/food/woolworths-christmas-prawns-recalled-over-contamination-fears-c-1821868",
+              "snippet": "A Woolworths spokesperson says the recall affects only one brand of frozen prawns and the fresh variety, which are far more commonly bought, are safe to eat. “&nbsp;..."
+            },
+            {
+              "title": "Woolworths recalls 1kg packets of frozen prawns due to &#39;microbial ...",
+              "timeAgo": "17h ago",
+              "source": "9News",
+              "image": {
+                "newsUrl": "https://www.9news.com.au/national/woolworths-cooked-prawn-recall-days-before-christmas/acd0605e-9cb8-44a1-84d3-544287bb51cd",
+                "source": "9News",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcQr16DNrg8SqJB_lki4a9dqKihA3SuTIhm3K1hF9e1zx1nGoPzp42gat8vfBn54O267CC3fAOiN"
+              },
+              "url": "https://www.9news.com.au/national/woolworths-cooked-prawn-recall-days-before-christmas/acd0605e-9cb8-44a1-84d3-544287bb51cd",
+              "snippet": "Supermarket giant Woolworths is recalling thousands of prawns across Australia over fears contamination of ..."
+            },
+            {
+              "title": "Woolworths extends urgent recall for line of frozen cocktail prawns to ...",
+              "timeAgo": "56m ago",
+              "source": "NEWS.com.au",
+              "image": {
+                "newsUrl": "https://www.news.com.au/lifestyle/christmas/woolworths-issues-urgent-recall-for-prawns-in-stores-across-several-states/news-story/7593e9220df63cbfd957c5c2b28806c7",
+                "source": "NEWS.com.au",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcR_YuhlGsHs54cRskun70RKpb4WDCfEn7lT3UOrguPHJVj62eWjV7mXRphKHtKlFQ0oqTerSOcJ"
+              },
+              "url": "https://www.news.com.au/lifestyle/christmas/woolworths-issues-urgent-recall-for-prawns-in-stores-across-several-states/news-story/7593e9220df63cbfd957c5c2b28806c7",
+              "snippet": "Woolworths has extended a total recall for its own-brand, 1kg bags of Cooked &amp; Peeled Cocktail Prawns to every state and territory but Queensland."
+            },
+            {
+              "title": "Woolworths issues urgent recall for frozen prawns",
+              "timeAgo": "17h ago",
+              "source": "3AW",
+              "image": {
+                "newsUrl": "https://www.3aw.com.au/woolworths-urgently-recalls-christmas-prawns/",
+                "source": "3AW",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcTnW0tzeBj0I1PqKSQXP232nL4ByyOTaymEZaEgBuaaJWcrfeahbPr0upz7qDTZHNKkIlYJ7_hL"
+              },
+              "url": "https://www.3aw.com.au/woolworths-urgently-recalls-christmas-prawns/",
+              "snippet": "Woolworths has issued an urgent recall for cocktail prawns over potential contamination. The peeled and cooked cocktail prawns, which are sold frozen in 1&nbsp;..."
+            },
+            {
+              "title": "Woolworths Issues A Recall On Frozen Prawns, So Maybe *Don&#39;t ...",
+              "timeAgo": "18h ago",
+              "source": "Pedestrian TV",
+              "image": {
+                "newsUrl": "https://www.pedestrian.tv/bites/woolworths-prawns-recall/",
+                "source": "Pedestrian TV",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQzwrreUu0v53NDwlvWF_6_hIuM4c7RQ5RAanmheE7-dCV2x5egP_hyM850EkmuCwOhoVVXRc59"
+              },
+              "url": "https://www.pedestrian.tv/bites/woolworths-prawns-recall/",
+              "snippet": "Woolworths Supermarkets have recalled Cooked &amp; Peeled Cocktail Prawns 1kg after concerns they could make you sick upon consumption."
+            },
+            {
+              "title": "Woolworths urgently recalls frozen prawns line ahead of Christmas",
+              "timeAgo": "19h ago",
+              "source": "Yahoo News Australia",
+              "image": {
+                "newsUrl": "https://au.news.yahoo.com/woolworths-prawns-urgently-recalled-contamination-fears-004646933.html",
+                "source": "Yahoo News Australia",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSxa9AaOmbB_m6vhn8Ujewf_QcC1HrYWuKQLTRoL513wQ_LoQM_Kzjmr-AVu-ekD-3vvo7kLzb3"
+              },
+              "url": "https://au.news.yahoo.com/woolworths-prawns-urgently-recalled-contamination-fears-004646933.html",
+              "snippet": "A recall was issued for the supermarket&#39;s brand of Cooked and Peeled Cocktail Prawns packed in a one kilo bag with a best before date of February 21, 2022, on&nbsp;..."
+            },
+            {
+              "title": "Woolworths urgently recall prawns",
+              "timeAgo": "19h ago",
+              "source": "The Canberra Times",
+              "image": {
+                "newsUrl": "https://www.canberratimes.com.au/story/7066866/woolworths-urgently-recall-prawns/?cs=14231",
+                "source": "The Canberra Times",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcR_9RQ6IE3-oC13gQ2CUmjw1MPhZkVfB-rDpHEENw2rDowWAc_7gxjAeh6RHF80vYPgidD1i_wl"
+              },
+              "url": "https://www.canberratimes.com.au/story/7066866/woolworths-urgently-recall-prawns/?cs=14231",
+              "snippet": "Just days out from one of the nation&#39;s biggest prawn-eating days, Woolworths has recalled its own-brand, 1kg bags of Cooked &amp; Peeled Cocktail Prawns."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Woolworths+prawn+recall#Woolworths%20prawn%20recall"
+        },
+        {
+          "title": {
+            "query": "Festivus",
+            "exploreLink": "/trends/explore?q=Festivus&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "2K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://www.cnn.com/2020/12/23/health/festivus-seinfeld-pandemic-wellness/index.html",
+            "source": "CNN",
+            "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRLnQYMiQVeT-VxF3H5iHkcX9zV8GGxLwYj3Mr2-Nix1U6c2Qu90qlA7K6eahklejqEgwKyueOH"
+          },
+          "articles": [
+            {
+              "title": "Festivus: The &#39;Seinfeld&#39; holiday for airing grievances is for everyone ...",
+              "timeAgo": "8h ago",
+              "source": "CNN",
+              "image": {
+                "newsUrl": "https://www.cnn.com/2020/12/23/health/festivus-seinfeld-pandemic-wellness/index.html",
+                "source": "CNN",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRLnQYMiQVeT-VxF3H5iHkcX9zV8GGxLwYj3Mr2-Nix1U6c2Qu90qlA7K6eahklejqEgwKyueOH"
+              },
+              "url": "https://www.cnn.com/2020/12/23/health/festivus-seinfeld-pandemic-wellness/index.html",
+              "snippet": "During a pandemic, the &quot;Seinfeld&quot;-created holiday of Festivus takes on a new meaning. It&#39;s a special day reserved traditionally for those who are more apt to&nbsp;..."
+            },
+            {
+              "title": "What is Festivus? Syracuse alum helped popularize holiday on ...",
+              "timeAgo": "9h ago",
+              "source": "syracuse.com",
+              "image": {
+                "newsUrl": "https://www.syracuse.com/entertainment/2020/12/what-is-festivus-syracuse-alum-helped-popularize-holiday-on-seinfeld.html",
+                "source": "syracuse.com",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcTWdn-aiFNqsgjWK-6j9kd_IAyMSkTbg_gZw7wPce03SfMozpPywwZ2-HksNP9Tpk5ADzOeuiKS"
+              },
+              "url": "https://www.syracuse.com/entertainment/2020/12/what-is-festivus-syracuse-alum-helped-popularize-holiday-on-seinfeld.html",
+              "snippet": "Happy Festivus! The tradition begins with the airing of grievances... but first, what is Festivus, exactly? Festivus is a non-religious holiday, started by Daniel&nbsp;..."
+            },
+            {
+              "title": "Happy Festivus! A look at the best tweets, memes on social media",
+              "timeAgo": "6h ago",
+              "source": "Atlanta Journal Constitution",
+              "image": {
+                "newsUrl": "https://www.ajc.com/news/happy-festivus-a-look-at-the-best-tweets-memes-on-social-media/C5UVW3BENRCVVM3LFW5AYRGNCY/",
+                "source": "Atlanta Journal Constitution",
+                "imageUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcRkaAP9exa63UMS0CCRCkEA-E2dX4WexBAsP9NvSH5mUbzMCu_n-KeJ4eFebcoLaq4hOMjXrxLM"
+              },
+              "url": "https://www.ajc.com/news/happy-festivus-a-look-at-the-best-tweets-memes-on-social-media/C5UVW3BENRCVVM3LFW5AYRGNCY/",
+              "snippet": "You don&#39;t have to tell “Seinfeld” fans what Wednesday is: It&#39;s Festivus!"
+            },
+            {
+              "title": "Readers, here are your top complaints for Festivus 2020",
+              "timeAgo": "10h ago",
+              "source": "Tampa Bay Times",
+              "image": {
+                "newsUrl": "https://www.tampabay.com/life-culture/2020/12/23/readers-here-are-your-top-complaints-for-festivus-2020/",
+                "source": "Tampa Bay Times",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcQDwPhnmhz4QbEkp9zylzGKvs26RNMFAwrzLXHTGpFk1Mkp62U1MtvIdaMSH_G034IB3L35KU1f"
+              },
+              "url": "https://www.tampabay.com/life-culture/2020/12/23/readers-here-are-your-top-complaints-for-festivus-2020/",
+              "snippet": "Why are we and others around the world still celebrating Festivus, a made-up holiday from a beloved &#39;90s Seinfeld episode? It&#39;s because we like it. It&#39;s funny."
+            },
+            {
+              "title": "Punters&#39; Festivus 2020: The airing of punting grievances",
+              "timeAgo": "15h ago",
+              "source": "Punters",
+              "image": {
+                "newsUrl": "https://www.punters.com.au/news/festivus%3A-the-airing-of-punting-grievances-_195388/",
+                "source": "Punters",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcRwKNBHdMCwX_A9rIvgVpsrQksWsN6ItlobIxw7fM_4ZzswpuUywJ_J7geZm7eI3_1Bv62yp7kd"
+              },
+              "url": "https://www.punters.com.au/news/festivus%3A-the-airing-of-punting-grievances-_195388/",
+              "snippet": "Festivus, a fictional holiday concocted by Seinfeld&#39;s Frank Costanza, is a time of year when people - in our case punters - air their grievances and disappoints&nbsp;..."
+            },
+            {
+              "title": "Happy Festivus, the 1st without its &#39;creator&#39;",
+              "timeAgo": "3h ago",
+              "source": "TribLIVE",
+              "image": {
+                "newsUrl": "https://triblive.com/aande/movies-tv/happy-festivus-the-1st-without-its-creator/",
+                "source": "TribLIVE",
+                "imageUrl": "https://t0.gstatic.com/images?q=tbn:ANd9GcSVVEk9l3qoXdEoSmfUE6d2LX9XDQsQlSYY0JLEGViWxktWt5xmBcQruiJWtTa6rjSYFxCcldur"
+              },
+              "url": "https://triblive.com/aande/movies-tv/happy-festivus-the-1st-without-its-creator/",
+              "snippet": "Happy Festivus. With the year the world has had and the loss of its creator, it might be a somber one. Or maybe a reason to celebrate more. The fictional (but&nbsp;..."
+            },
+            {
+              "title": "Happy Festivus Birmingham! It&#39;s 2020. We can&#39;t wait for the “airing of ...",
+              "timeAgo": "8h ago",
+              "source": "Bham Now",
+              "image": {
+                "newsUrl": "https://bhamnow.com/2020/12/23/happy-festivus-birmingham-its-2020-we-cant-wait-for-the-airing-of-grievances/",
+                "source": "Bham Now",
+                "imageUrl": "https://t2.gstatic.com/images?q=tbn:ANd9GcTPYdAhcsVf3eZ26CyN7AzYQyTvfeP2sCTC0cr-HHFeYrQ_AfMzpeGNHM4RtBsrYm9REgt2WIWY"
+              },
+              "url": "https://bhamnow.com/2020/12/23/happy-festivus-birmingham-its-2020-we-cant-wait-for-the-airing-of-grievances/",
+              "snippet": "Are you celebrating Festivus in Birmingham? We found several &quot;unadorned poles&quot; in several neighborhoods."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Festivus#Festivus"
+        },
+        {
+          "title": {
+            "query": "Jim Graham",
+            "exploreLink": "/trends/explore?q=Jim+Graham&date=now+7-d&geo=AU"
+          },
+          "formattedTraffic": "2K+",
+          "relatedQueries": [],
+          "image": {
+            "newsUrl": "https://www.abc.net.au/news/2020-12-22/jim-graham-abc-radio-melbourne-newsreader-dies/13007842",
+            "source": "ABC News",
+            "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcR90EQAimOx1l_2rIItSgmeoqe2vV24-Z_rXJsiIoaEJD3z7zocpa7rOB9KUb-1AskZEDqY2dgH"
+          },
+          "articles": [
+            {
+              "title": "Jim Graham, ABC Radio Melbourne newsreader, dies aged 63",
+              "timeAgo": "1d ago",
+              "source": "ABC News",
+              "image": {
+                "newsUrl": "https://www.abc.net.au/news/2020-12-22/jim-graham-abc-radio-melbourne-newsreader-dies/13007842",
+                "source": "ABC News",
+                "imageUrl": "https://t1.gstatic.com/images?q=tbn:ANd9GcR90EQAimOx1l_2rIItSgmeoqe2vV24-Z_rXJsiIoaEJD3z7zocpa7rOB9KUb-1AskZEDqY2dgH"
+              },
+              "url": "https://www.abc.net.au/news/2020-12-22/jim-graham-abc-radio-melbourne-newsreader-dies/13007842",
+              "snippet": "Veteran ABC newsreader Jim Graham has died aged 63. Known to listeners for his distinctive, deep voice, Graham was particularly well regarded by colleagues&nbsp;..."
+            }
+          ],
+          "shareUrl": "https://trends.google.com/trends/trendingsearches/daily?geo=AU&tt=Jim+Graham#Jim%20Graham"
+        }
+      ]
+    }
+  ],
+  "endDateForNextRequest": "20201222",
+  "rssFeedPageUrl": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=AU"
+}

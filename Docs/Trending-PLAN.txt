@@ -1,0 +1,48 @@
+* CI, deployment
+	- I should try to get what I have running on DO
+	
+* Clean up GIT stuff to clear out the keys.
+	- I should probably put them somewhere safer
+	- I could make a secrets repository
+	
+Option 1: Secrets in a private git repo
+	- Can be shared between multiple apps
+	- Safe and easy to use
+	- Prevents the app from being built without access
+	- First practice with swift package manager
+
+* Create logger for jobs
+* Look into performance monitoring / logging solutions
+* Migrate twitter job to work more like google so I can delete 1 field
+	
+* Create consistent error format between all platforms
+
+* Migrate all data sources to not start with an array
+
+
+
+* Setup CI pipeline to do tests on each commit of my server app
+* Add testing data to show previews of screens for SwiftUI. Need to keep this working as it will be useful one day
+
+
+
+* Add my fonts and typography to DS
+* Start creating a RN component guide
+* Sort places by number of votes.
+* Use 1K instead of random numbers 
+
+https://github.com/skorulis/sk-react-native-components
+
+
+
+The next main issue is getting better data
+
+1. I need to not track points which are the same as the previous one to save memory.
+2. I need some indication of numbers on my charts. Looks like I'm going to have to build axis myself
+3. Allowing different view methods (top, trending, new)
+top = Highest value in 24hr
+trending = biggest swing in 24hr
+new = Highest latest point
+
+
+I need to look at deployment, to start getting solid data, I should probably run online first.

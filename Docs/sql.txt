@@ -1,0 +1,20 @@
+psql -U postgres
+DROP DATABASE trending;
+CREATE DATABASE trending;
+SELECT tdp.trend_id AS id, t.key, t.display, MAX(tdp.value) as value FROM twitter_data_point tdp INNER JOIN trend t ON t.id = tdp.trend_id WHERE tdp.created_at >= 1000 GROUP BY tdp.trend_id,t.key,t.display ORDER BY SUM(tdp.value) DESC LIMIT 100 
+
+SELECT * FROM trend t INNER JOIN twitter_data_point tdp on tdp.trend_id = t.id;
+
+SELECT t.*, MAX(tdp.value) FROM trend t JOIN twitter_data_point tdp on tdp.trend_id = t.id 
+GROUP by t.id
+ORDER BY tdp.value
+WHERE tdp.created_at='2020-11-20';
+
+
+
+SELECT COUNT(t.*) FROM trend t INNER JOIN twitter_data_point tdp on tdp.trend_id = t.id;
+
+select * from twitter_data_point WHERE created_at='2020-11-19';
+
+
+What I want, the top 100 trends with the highest 
