@@ -15,6 +15,7 @@ public struct Configure {
         
         configureMigrations(app)
         do {
+            print("Running auto migration")
             try app.autoMigrate().wait()
         } catch {
             print("Migration failure \(error)")
@@ -34,6 +35,7 @@ public struct Configure {
         configureDatabase(app)
         
         configureMigrations(app)
+        print("Running auto migration")
         try app.autoMigrate().wait()
         
         try configureJobs(app)
