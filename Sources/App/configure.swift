@@ -43,10 +43,10 @@ public struct Configure {
     
     private func configureJobs(_ app: Application) throws {
         //Setup queues
-        let host = Environment.get("REDIS_HOST") ?? "redis://127.0.0.1"
+        let host = Environment.get("REDIS_HOST") ?? "127.0.0.1"
         let port = "6379"
 
-        try app.queues.use(.redis(url: "\(host):\(port)"))
+        try app.queues.use(.redis(url: "redis://\(host):\(port)"))
         
         let queueConfig = QueuesConfiguration(refreshInterval: .seconds(1), persistenceKey: "test", workerCount: 1, logger: app.logger)
         let testContext = QueueContext(queueName: .default, configuration: queueConfig, application: app, logger: app.logger, on: app.eventLoopGroup.next())
