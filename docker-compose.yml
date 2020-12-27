@@ -31,7 +31,7 @@ services:
     image: trending_api:latest
     build:
       context: .
-      dockerfile: ./Sources/MainAPI/DockerFile
+      dockerfile: Sources/MainAPI/Dockerfile
     environment:
       <<: *shared_environment
     depends_on:
@@ -44,7 +44,7 @@ services:
     image: trending_fetcher:latest
     build:
       context: .
-      dockerfile: ./Sources/DataFetcher/DockerFile
+      dockerfile: Sources/DataFetcher/Dockerfile
     environment:
       <<: *shared_environment
     depends_on:
