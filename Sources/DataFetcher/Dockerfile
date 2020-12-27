@@ -57,4 +57,4 @@ USER vapor:vapor
 
 # Start the Vapor service when the image is run, default to listening on 8080 in production environment
 ENTRYPOINT ["./DataFetcher"]
-CMD ["serve", "--env", "production", "queues --scheduled"]
+CMD ["serve", "--env", "production", "queues", "--scheduled"]

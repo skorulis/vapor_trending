@@ -49,7 +49,7 @@ services:
       <<: *shared_environment
     depends_on:
       - db
-    command: ["serve", "--env", "production","queues --scheduled",]
+    command: ["serve", "--env", "production","queues", "--scheduled"]
   #migrate:
   #  image: Trending:latest
   #  build:
