@@ -34,7 +34,7 @@ struct TwitterGetTrendsJob: ScheduledJob {
     }
     
     private func updatePlace(place: Place, app: Application, in db: Database) -> EventLoopFuture<Void> {
-        print("Getting trends for \(place.name)")
+        print("Getting twitter trends for \(place.name)")
         let client = app.client.twitterClient
         return client.getTrends(woeid: place.id!).flatMap { (trends) -> EventLoopFuture<Void> in
             return TwitterDataPointDAO().insert(place: place, points: trends, in: db).flatMap { (points) -> EventLoopFuture<Void> in

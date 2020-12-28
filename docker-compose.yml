@@ -41,16 +41,6 @@ services:
       - '7000:7000'
     # user: '0' # uncomment to run as root for testing purposes even though Dockerfile defines 'vapor' user.
     command: ["serve", "--env", "production", "--hostname", "0.0.0.0", "--port", "7000"]
-  fetcher:
-    image: trending_fetcher:latest
-    build:
-      context: .
-      dockerfile: Sources/DataFetcher/Dockerfile
-    environment:
-      <<: *shared_environment
-    depends_on:
-      - db
-    command: ["serve", "--env", "production","queues", "--scheduled"]
   #migrate:
   #  image: Trending:latest
   #  build:

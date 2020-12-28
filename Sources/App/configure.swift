@@ -28,6 +28,17 @@ public struct Configure {
         
         // register routes
         try routes(app)
+        
+        //Start jobs
+        
+        do {
+            try configureJobs(app)
+            
+            try app.queues.startInProcessJobs(on: .default)
+            try app.queues.startScheduledJobs()
+        } catch {
+            print("Error configuring jobs \(error)")
+        }
     }
     
     // configure the application for database updating
@@ -45,8 +56,10 @@ public struct Configure {
         //Setup queues
         let host = Environment.get("REDIS_HOST") ?? "127.0.0.1"
         let port = "6379"
+        let redisURL = "redis://\(host):\(port)"
 
-        try app.queues.use(.redis(url: "redis://\(host):\(port)"))
+        print("Connect queues to \(redisURL)")
+        try app.queues.use(.redis(url: redisURL))
         
         let queueConfig = QueuesConfiguration(refreshInterval: .seconds(1), persistenceKey: "test", workerCount: 1, logger: app.logger)
         let testContext = QueueContext(queueName: .default, configuration: queueConfig, application: app, logger: app.logger, on: app.eventLoopGroup.next())
@@ -54,14 +67,13 @@ public struct Configure {
         
         _ = RedditTrendingJob().run(context: testContext)
         _ = TwitterAvailablePlacesJob().run(context: testContext)
-        _ = GoogleTrendingJob().run(context: testContext)
         
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(1)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(15)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(30)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(59)
         
-        app.queues.schedule(GoogleTrendingJob()).minutely().at(10)
+        //app.queues.schedule(GoogleTrendingJob()).minutely().at(10)
     }
     
     private func configureDatabase(_ app: Application) {
