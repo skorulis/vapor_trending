@@ -14,16 +14,21 @@ public final class Place: Model, Content {
     @Field(key: .name)
     public var name: String
     
+    ///Only set for countries
+    @Field(key: .countryCode)
+    public var countryCode: String?
+    
     @Field(key: .updatedAt)
     var lastUpdate: Double
     
     @OptionalParent(key: .countryId)
-    var country: Country?
+    var country: Place?
 
     public init() { }
 
-    public init(name: String, woeid: Int32, country: Country?) {
+    public init(name: String, woeid: Int32, countryCode: String?,  country: Place?) {
         self.name = name
+        self.countryCode = countryCode
         self.id = woeid
         self.lastUpdate = Date().timeIntervalSince1970
         self.$country.id = country?.id
@@ -37,8 +42,9 @@ public struct PlaceMigration: Migration {
         database.schema(Place.schema)
             .field(.id, .int32, .identifier(auto: false))
             .field(.name, .string, .required)
+            .field(.countryCode, .string)
             .field(.updatedAt, .double)
-            .field(.countryId, .uuid, .references(Country.schema, .id))
+            .field(.countryId, .int32, .references(Place.schema, .id))
             .create()
     }
     
@@ -47,17 +53,5 @@ public struct PlaceMigration: Migration {
     }
     
     public init() {}
-    
-}
-
-public struct PlaceDAO {
-    
-    func find(ids: [Int32]?, on db: Database) -> EventLoopFuture<[Place]> {
-        var query = Place.query(on: db)
-        if let ids = ids {
-            query = query.filter(\.$id ~~ ids)
-        }
-        return query.all()
-    }
     
 }

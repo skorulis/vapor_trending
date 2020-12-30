@@ -12,34 +12,34 @@ import Fluent
 struct TwitterAvailablePlacesJob: ScheduledJob {
     
     func run(context: QueueContext) -> EventLoopFuture<Void> {
-        let dao = CountryDAO()
+        
         return context.application.client.twitterClient.getAvailablePlaces().flatMap { (places) -> EventLoopFuture<Void> in
             return context.application.db.transaction { (db) -> EventLoopFuture<Void> in
                 print("Saving twitter places")
-                let twitterCountries = self.uniqueCountries(places: places)
-                return dao.insertMissing(countries: twitterCountries, in: db).flatMap { (countries) -> EventLoopFuture<Void> in
+                
+                return Place.DAO.updateCountries(places: places, on: db).flatMap { (countries) -> EventLoopFuture<Void> in
                     return self.save(places: places, countries: countries, db: db)
                 }
             }   
         }
     }
     
-    private func save(places: [TwitterPlace], countries: [Country], db: Database) -> EventLoopFuture<Void> {
+    private func save(places: [TwitterPlace], countries: [Place], db: Database) -> EventLoopFuture<Void> {
         let countryMap = Dictionary(grouping: countries) { (country) -> String in
-            return country.countryCode
+            return country.countryCode!
         }.mapValues { $0[0] }
         let woeids = places.map { $0.woeid }
         return Place.query(on: db).filter(\.$id ~~ woeids).all().flatMap { (existing) -> EventLoopFuture<Void> in
             let foundWoeids = Set(existing.map { $0.id! })
             let missing = places.filter { !foundWoeids.contains($0.woeid) }
             let placeItems = missing.map { (place) -> Place in
-                var country: Country?
+                var country: Place?
                 if let code = place.countryCode {
                     country = countryMap[code]
                 }
-                return Place(name: place.name, woeid: place.woeid, country: country)
+                return Place(name: place.name, woeid: place.woeid, countryCode: nil , country: country)
             }
-            return placeItems.map { $0.create(on: db)}.flatten(on: db.eventLoop).flatMap { (_) -> EventLoopFuture<Void> in
+            return placeItems.insertAll(on: db).flatMap { (_) -> EventLoopFuture<Void> in
                 return updateJobStatuses(places: places, db: db)
             }
         }
@@ -76,7 +76,7 @@ struct TwitterAvailablePlacesJob: ScheduledJob {
         return f1.and(f2).transform(to: Void())
     }
     
-    private func uniqueCountries(places: [TwitterPlace]) -> [Country] {
+    /*private func uniqueCountries(places: [TwitterPlace]) -> [Country] {
         var codeMapping: [String: Country] = [:]
         for place in places {
             if let code = place.countryCode, codeMapping[code] == nil {
@@ -84,7 +84,7 @@ struct TwitterAvailablePlacesJob: ScheduledJob {
             }
         }
         return Array(codeMapping.values)
-    }
+    }*/
     
     
 }

@@ -34,6 +34,10 @@ class TwitterAvailablePlacesJobTests: BaseAppTests {
         
         let places = try Place.query(on: app.db).all().wait()
         XCTAssertEqual(places.count, 467)
+        let countries = places.filter { $0.countryCode != nil}
+        XCTAssertEqual(countries.count, 62)
+        let towns = places.filter { $0.$country.id != nil }
+        XCTAssertEqual(towns.count, 404)
         
         let googleJob = try JobStatusDAO.get(type: .googleDaily, db: app.db).wait()
         XCTAssertGreaterThan(googleJob?.jobData.google?.lastUpdates.count ?? 0, 0)

@@ -97,7 +97,6 @@ public struct Configure {
     private func configureMigrations(_ app: Application) {
         app.migrations.add(TrendItemMigration())
         app.migrations.add(RedditTrendMigration())
-        app.migrations.add(CountryMigration())
         app.migrations.add(PlaceMigration())
         app.migrations.add(TwitterDataPointMigration())
         app.migrations.add(GoogleDataPointMigration())

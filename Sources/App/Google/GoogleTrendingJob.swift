@@ -7,7 +7,7 @@ struct GoogleTrendingJob: ScheduledJob {
     
     private struct Progress {
         let status: JobStatus
-        let country: Country
+        let country: Place
         var trends: [TrendItem] = []
         var searches: [GoogleTrendingSearch] = []
         
@@ -50,13 +50,13 @@ struct GoogleTrendingJob: ScheduledJob {
                 guard let countryCode: String = status.jobData.google?.nextCountry else {
                     return db.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Incorrect job setup, no google country code"))
                 }
-                return CountryDAO.find(code: countryCode, in: db).map { (country) -> (Progress) in
+                return Place.DAO.findCountry(code: countryCode, in: db).map { (country) -> (Progress) in
                     return Progress(status: status, country: country)
                 }
             }
             let apiFuture = countryFuture.flatMap { (progress) -> EventLoopFuture<Progress> in
-                print("Getting google trends for \(progress.country.name) (\(progress.country.countryCode))")
-                return client.getDailyTrends(countryCode: progress.country.countryCode).map { (response) -> (Progress) in
+                print("Getting google trends for \(progress.country.name) (\(progress.country.countryCode!))")
+                return client.getDailyTrends(countryCode: progress.country.countryCode!).map { (response) -> (Progress) in
                     return progress.with(response: response)
                 }
             }
@@ -76,7 +76,7 @@ struct GoogleTrendingJob: ScheduledJob {
             
             return dataFuture.flatMap { (progress) -> EventLoopFuture<Void> in
                 let status = progress.status
-                status.jobData.google?.lastUpdates[progress.country.countryCode] = Date().timeIntervalSince1970
+                status.jobData.google?.lastUpdates[progress.country.countryCode!] = Date().timeIntervalSince1970
                 return status.update(on: db).transform(to: Void())
             }
             

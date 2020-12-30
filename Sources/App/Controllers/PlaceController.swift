@@ -21,7 +21,7 @@ struct PlaceController: RegisteredRouteCollection {
                 return uuid
             }
             
-            return PlaceDAO().find(ids: woeids, on: req.db)
+            return Place.DAO().find(ids: woeids, on: req.db)
         }.register(as: "places", in: registry, queryExample: queryExample)
         
     }
