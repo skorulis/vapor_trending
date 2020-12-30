@@ -30,15 +30,17 @@ public struct Configure {
         try routes(app)
         
         //Start jobs
-        
-        do {
-            try configureJobs(app)
-            
-            try app.queues.startInProcessJobs(on: .default)
-            try app.queues.startScheduledJobs()
-        } catch {
-            print("Error configuring jobs \(error)")
+        if app.environment.name != "testing" {
+            do {
+                try configureJobs(app)
+                
+                try app.queues.startInProcessJobs(on: .default)
+                try app.queues.startScheduledJobs()
+            } catch {
+                print("Error configuring jobs \(error)")
+            }
         }
+        
     }
     
     // configure the application for database updating
@@ -73,7 +75,7 @@ public struct Configure {
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(30)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(59)
         
-        //app.queues.schedule(GoogleTrendingJob()).minutely().at(10)
+        app.queues.schedule(GoogleTrendingJob()).minutely().at(10)
     }
     
     private func configureDatabase(_ app: Application) {

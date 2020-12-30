@@ -9,6 +9,12 @@ struct TwitterPlace: Codable {
     let country: String
     let woeid: Int32
     let countryCode: String?
+    let placeType: PlaceType
+}
+
+struct PlaceType: Codable {
+    let code: Int
+    let name: String
 }
 
 struct TwitterTrend: Codable {

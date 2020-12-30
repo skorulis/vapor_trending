@@ -6,6 +6,7 @@ struct TrendDetails: Content {
     
     let trend: TrendItem
     let history: [TwitterDataPoint]
+    let google_history: [GoogleDataPoint]
     
 }
 
@@ -32,8 +33,9 @@ struct TrendController: RegisteredRouteCollection {
                 guard let trend = trend else {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(name)"))
                 }
-                return TwitterDataPointDAO().history(trend: trend, timeframe: 86400, in: req.db).map { (history) -> (TrendDetails) in
-                    return TrendDetails(trend: trend, history: history)
+                let historyFuture = TwitterDataPointDAO().history(trend: trend, timeframe: 86400, in: req.db)
+                return historyFuture.map { (twitterHistory) -> (TrendDetails) in
+                    return TrendDetails(trend: trend, history: twitterHistory, google_history: [])
                 }
                 
             })
@@ -51,7 +53,7 @@ struct TrendController: RegisteredRouteCollection {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(id)"))
                 }
                 return TwitterDataPointDAO().history(trend: trend, timeframe: timeframe, in: req.db).map { (history) -> (TrendDetails) in
-                    return TrendDetails(trend: trend, history: history)
+                    return TrendDetails(trend: trend, history: history, google_history: [])
                 }
                 
             })

@@ -13,5 +13,8 @@ extension GoogleDataPoint {
             //return GoogleDataPoint.query(on: db).filter(\.$trend.$id ~~ itemIds).filter(\.$country.$id == country.id!).all()
         }*/
         
+        func history(trend: TrendItem, timeframe: Double, in db: Database) -> EventLoopFuture<[GoogleDataPoint]> {
+            return db.eventLoop.makeSucceededFuture([])
+        }
     }
 }
