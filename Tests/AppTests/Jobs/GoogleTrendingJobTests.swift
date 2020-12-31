@@ -41,6 +41,17 @@ class GoogleTrendingJobTests: BaseAppTests {
         
         let dataPoints = try GoogleDataPoint.query(on: app.db).all().wait()
         XCTAssertEqual(dataPoints.count, 20)
+        
+        let trend = try TrendItem.query(on: app.db).first().wait()
+        XCTAssertNotNil(trend)
+        
+        let history = try GoogleDataPoint.DAO.history(trend: trend!, timeframe: 86400, in: app.db).wait()
+        XCTAssertEqual(history.count, 1)
+        
+        let topTrends = try GoogleDataPoint.DAO.topTrends(in: app.db, placeId: nil).wait()
+        XCTAssertEqual(topTrends.count, 20)
+        
+    
     }
     
 }

@@ -34,6 +34,7 @@ public struct Configure {
             do {
                 try configureJobs(app)
                 
+                //These lines cause a lot of connection failure errors, but don't seem to stop anything from working
                 try app.queues.startInProcessJobs(on: .default)
                 try app.queues.startScheduledJobs()
             } catch {
@@ -66,11 +67,11 @@ public struct Configure {
         let queueConfig = QueuesConfiguration(refreshInterval: .seconds(1), persistenceKey: "test", workerCount: 1, logger: app.logger)
         let testContext = QueueContext(queueName: .default, configuration: queueConfig, application: app, logger: app.logger, on: app.eventLoopGroup.next())
         
-        
         _ = RedditTrendingJob().run(context: testContext)
         _ = TwitterAvailablePlacesJob().run(context: testContext)
         
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(1)
+        
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(15)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(30)
         app.queues.schedule(TwitterGetTrendsJob()).minutely().at(59)

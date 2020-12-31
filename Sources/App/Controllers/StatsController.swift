@@ -6,6 +6,7 @@ private struct StatsResponse: Content {
     let trendCount: Int
     let placeCount: Int
     let twitterPointCount: Int
+    let googlePointCount: Int
 }
 
 struct StatsController: RegisteredRouteCollection {
@@ -17,8 +18,9 @@ struct StatsController: RegisteredRouteCollection {
             let trendCount = TrendItem.query(on: req.db).count()
             let placeCount = Place.query(on: req.db).count()
             let twitterCount = TwitterDataPoint.query(on: req.db).count()
-            return [trendCount, placeCount, twitterCount].flatten(on: req.eventLoop).map { (counts) -> (StatsResponse) in
-                return StatsResponse(trendCount: counts[0], placeCount: counts[1], twitterPointCount: counts[2])
+            let googleCount = GoogleDataPoint.query(on: req.db).count()
+            return [trendCount, placeCount, twitterCount, googleCount].flatten(on: req.eventLoop).map { (counts) -> (StatsResponse) in
+                return StatsResponse(trendCount: counts[0], placeCount: counts[1], twitterPointCount: counts[2], googlePointCount: counts[3])
             }
         }.register(as: "stats", in: registry)
         

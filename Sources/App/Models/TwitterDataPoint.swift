@@ -67,6 +67,14 @@ struct TopTrendModel: Content {
         self.display = display
         self.value = value
     }
+    
+    static func fromRow(row: SQLRow) throws -> TopTrendModel {
+        let id = try row.decode(column: "id", as: String.self)
+        let key = try row.decode(column: "key", as: String.self)
+        let display = try row.decode(column: "display", as: String.self)
+        let value = try row.decodeInt(column: "value")
+        return TopTrendModel(id: id, key: key, display: display, value: value)
+    }
 }
 
 struct TwitterDataPointDAO {
@@ -88,57 +96,7 @@ struct TwitterDataPointDAO {
     }
     
     
-    func topTrends(in db: Database, timeframe: Double = 24 * 60 * 60, placeId: Int?) -> EventLoopFuture<[TopTrendModel]> {
-        guard let sql = db as? SQLDatabase else {
-            return db.eventLoop.makeFailedFuture(Abort(.internalServerError, reason: "Why no SQL"))
-        }
-        let time = Date().timeIntervalSince1970 - timeframe
-        
-        var select = sql.select()
-            .column(SQLAlias(SQLColumn("trend_id", table: "twitter_data_point"), as: SQLIdentifier("id")))
-            .column(table: "trend", column: "key")
-            .column(table: "trend", column: "display")
-            .column(SQLAlias(SQLFunction("SUM", args: "value"), as: SQLIdentifier("value")))
-            .from("twitter_data_point")
-            .join("trend", on: "trend.id = twitter_data_point.trend_id")
-            .where(SQLColumn("created_at", table: "twitter_data_point"), .greaterThanOrEqual, SQLBind(time))
-            .groupBy("trend_id")
-            .groupBy("key")
-            .groupBy("display")
-            .orderBy(SQLFunction("SUM",args:"value"), SQLDirection.descending)
-            .limit(100)
-        
-        if let placeId = placeId {
-            select = select.where(SQLColumn("place_id", table: "twitter_data_point"), .equal, SQLBind(placeId))
-        }
-        return select.all().flatMapThrowing { (rows) -> [TopTrendModel] in
-            return try rows.map({ (row) -> TopTrendModel in
-                let id = try row.decode(column: "id", as: String.self)
-                let key = try row.decode(column: "key", as: String.self)
-                let display = try row.decode(column: "display", as: String.self)
-                let value = try row.decodeInt(column: "value")
-                return TopTrendModel(id: id, key: key, display: display, value: value)
-            })
-        }
-    }
     
-    func history(trend:TrendItem, timeframe: Double, in db: Database) -> EventLoopFuture<[TwitterDataPoint]> {
-        let time = Date().timeIntervalSince1970 - timeframe
-        
-        return trend.$twitterDataPoints.query(on: db).filter(\.$createdAt >= time).sort(\.$createdAt).all()
-    }
     
 }
 
-extension SQLRow {
-    
-    ///Decode an int despite the data type coming back from SQL
-    func decodeInt(column: String) throws -> Int {
-        if let intValue = try? self.decode(column: column, as: Int.self) {
-            return intValue
-        }
-        let doubleValue = try self.decode(column: column, as: Double.self)
-        return Int(doubleValue)
-    }
-    
-}

@@ -24,7 +24,7 @@ struct TrendController: RegisteredRouteCollection {
         group.get("top") { (req) -> EventLoopFuture<[TopTrendModel]> in
             let params = try req.query.decode(TrendQuery.self)
             let timeframe = params.seconds ?? 86400
-            return TwitterDataPointDAO().topTrends(in: req.db, timeframe: timeframe, placeId: params.placeId)
+            return TwitterDataPoint.DAO.topTrends(in: req.db, timeframe: timeframe, placeId: params.placeId)
         }.register(as: "top_trends", in: registry, queryExample: queryExample)
         
         group.get(":name") { (req) -> EventLoopFuture<TrendDetails> in
@@ -33,9 +33,11 @@ struct TrendController: RegisteredRouteCollection {
                 guard let trend = trend else {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(name)"))
                 }
-                let historyFuture = TwitterDataPointDAO().history(trend: trend, timeframe: 86400, in: req.db)
-                return historyFuture.map { (twitterHistory) -> (TrendDetails) in
-                    return TrendDetails(trend: trend, history: twitterHistory, google_history: [])
+                let timeframe: Double = 86400
+                let twitterFuture = TwitterDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db)
+                let googleFuture = GoogleDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db)
+                return twitterFuture.and(googleFuture).map { (twitterHistory, googleHistory) -> (TrendDetails) in
+                    return TrendDetails(trend: trend, history: twitterHistory, google_history: googleHistory)
                 }
                 
             })
@@ -52,7 +54,7 @@ struct TrendController: RegisteredRouteCollection {
                 guard let trend = trend else {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(id)"))
                 }
-                return TwitterDataPointDAO().history(trend: trend, timeframe: timeframe, in: req.db).map { (history) -> (TrendDetails) in
+                return TwitterDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db).map { (history) -> (TrendDetails) in
                     return TrendDetails(trend: trend, history: history, google_history: [])
                 }
                 
