@@ -1,12 +1,13 @@
 //  Created by Alexander Skorulis on 21/11/20.
 
 import Vapor
+import Fluent
 
 struct TrendDetails: Content {
     
     let trend: TrendItem
-    let history: [TwitterDataPoint]
-    let google_history: [GoogleDataPoint]
+    let twitterHistory: [TwitterDataPoint]
+    let googleHistory: [GoogleDataPoint]
     
 }
 
@@ -15,16 +16,28 @@ private struct TrendQuery: Decodable {
     let placeId: Int?
 }
 
+struct TopTrendsResponse: Content {
+    
+    let twitter: [TopTrendModel]
+    let google: [TopTrendModel]
+    
+}
+
 struct TrendController: RegisteredRouteCollection {
+    
     func boot(routes: RoutesBuilder, registry: RouteRegistry) throws {
         
         let group = routes.grouped("trend")
         let queryExample = TrendQuery(seconds: 86400, placeId: 1)
         
-        group.get("top") { (req) -> EventLoopFuture<[TopTrendModel]> in
+        group.get("top") { (req) -> EventLoopFuture<TopTrendsResponse> in
             let params = try req.query.decode(TrendQuery.self)
             let timeframe = params.seconds ?? 86400
-            return TwitterDataPoint.DAO.topTrends(in: req.db, timeframe: timeframe, placeId: params.placeId)
+            let twitterTrends = TwitterDataPoint.DAO.topTrends(in: req.db, timeframe: timeframe, placeId: params.placeId)
+            let googleTrends = GoogleDataPoint.DAO.topTrends(in: req.db, timeframe: timeframe, placeId: params.placeId)
+            return twitterTrends.and(googleTrends).map { (twitter,google) -> (TopTrendsResponse) in
+                return TopTrendsResponse(twitter: twitter, google: google)
+            }
         }.register(as: "top_trends", in: registry, queryExample: queryExample)
         
         group.get(":name") { (req) -> EventLoopFuture<TrendDetails> in
@@ -34,12 +47,7 @@ struct TrendController: RegisteredRouteCollection {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(name)"))
                 }
                 let timeframe: Double = 86400
-                let twitterFuture = TwitterDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db)
-                let googleFuture = GoogleDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db)
-                return twitterFuture.and(googleFuture).map { (twitterHistory, googleHistory) -> (TrendDetails) in
-                    return TrendDetails(trend: trend, history: twitterHistory, google_history: googleHistory)
-                }
-                
+                return getHistory(trend: trend, timeframe: timeframe, on: req.db)
             })
         }.register(as: "trend_details", in: registry)
         
@@ -54,14 +62,21 @@ struct TrendController: RegisteredRouteCollection {
                 guard let trend = trend else {
                     return req.eventLoop.makeFailedFuture(Abort(.notFound, reason: "Could not find trend \(id)"))
                 }
-                return TwitterDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: req.db).map { (history) -> (TrendDetails) in
-                    return TrendDetails(trend: trend, history: history, google_history: [])
-                }
-                
+                return getHistory(trend: trend, timeframe: timeframe, on: req.db)
             })
         }.register(as: "trend_details_id", in: registry, queryExample: queryExample)
     }
     
 }
 
-
+private extension TrendController {
+    
+    func getHistory(trend: TrendItem, timeframe: Double, on db: Database) -> EventLoopFuture<TrendDetails> {
+        let twitterFuture = TwitterDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: db)
+        let googleFuture = GoogleDataPoint.DAO.history(trend: trend, timeframe: timeframe, in: db)
+        return twitterFuture.and(googleFuture).map { (twitterHistory, googleHistory) -> (TrendDetails) in
+            return TrendDetails(trend: trend, twitterHistory: twitterHistory, googleHistory: googleHistory)
+        }
+    }
+    
+}

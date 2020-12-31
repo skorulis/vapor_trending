@@ -31,8 +31,8 @@ class TwitterGetTrendsJobTests: BaseAppTests {
         exp = expectation(description: "Get trends")
         try app.test(.GET, "/trend/top", afterResponse: { (res) in
             XCTAssertEqual(res.status, .ok)
-            let trends = try res.content.decode([TopTrendModel].self)
-            XCTAssertEqual(trends.count, 41)
+            let trends = try res.content.decode(TopTrendsResponse.self)
+            XCTAssertEqual(trends.twitter.count, 41)
             exp.fulfill()
         })
         wait(for: [exp], timeout: 10)
@@ -41,8 +41,8 @@ class TwitterGetTrendsJobTests: BaseAppTests {
         exp = expectation(description: "Get trends with id")
         try app.test(.GET, "/trend/top?placeId=2", afterResponse: { (res) in
             XCTAssertEqual(res.status, .ok)
-            let trends = try res.content.decode([TopTrendModel].self)
-            XCTAssertEqual(trends.count, 0)
+            let trends = try res.content.decode(TopTrendsResponse.self)
+            XCTAssertEqual(trends.twitter.count, 0)
             exp.fulfill()
         })
         wait(for: [exp], timeout: 10)

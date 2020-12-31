@@ -18,8 +18,8 @@ extension GoogleDataPoint {
             let minTime = Date().timeIntervalSince1970 - timeframe
             return GoogleDataPoint.query(on: db)
                 .filter(\.$trend.$id == trend.id!)
-                .filter(\.$lastUpdate >= minTime)
-                .sort(\.$lastUpdate).all()
+                .filter(\.$createdAt >= minTime)
+                .sort(\.$createdAt).all()
         }
         
         static func topTrends(in db: Database, timeframe: Double = 24 * 60 * 60, placeId: Int?) -> EventLoopFuture<[TopTrendModel]> {
@@ -35,7 +35,7 @@ extension GoogleDataPoint {
                 .column(SQLAlias(SQLFunction("SUM", args: "value"), as: SQLIdentifier("value")))
                 .from(GoogleDataPoint.schema)
                 .join("trend", on: "trend.id = \(GoogleDataPoint.schema).trend_id")
-                .where(SQLColumn("updated_at", table: GoogleDataPoint.schema), .greaterThanOrEqual, SQLBind(time))
+                .where(SQLColumn("created_at", table: GoogleDataPoint.schema), .greaterThanOrEqual, SQLBind(time))
                 .groupBy("trend_id")
                 .groupBy("key")
                 .groupBy("display")
@@ -43,7 +43,7 @@ extension GoogleDataPoint {
                 .limit(100)
             
             if let placeId = placeId {
-                select = select.where(SQLColumn("country_id", table: GoogleDataPoint.schema), .equal, SQLBind(placeId))
+                select = select.where(SQLColumn("place_id", table: GoogleDataPoint.schema), .equal, SQLBind(placeId))
             }
             
             return select.all().flatMapThrowing { (rows) -> [TopTrendModel] in

@@ -19,22 +19,22 @@ final class GoogleDataPoint: Model, Content {
     @Field(key: .value)
     var value: Int
     
-    @Field(key: .updatedAt)
-    var lastUpdate: Double
+    @Field(key: .createdAt)
+    var createdAt: Double
     
     @Parent(key: .trendId)
     var trend: TrendItem
     
-    @Parent(key: .countryId)
-    var country: Place
+    @Parent(key: .placeId)
+    var place: Place
 
     public init() { }
 
     public init(value: Int, trend: TrendItem, country: Place) throws {
-        self.lastUpdate = Date().timeIntervalSince1970
+        self.createdAt = Date().timeIntervalSince1970
         self.value = value
         self.$trend.id = try trend.requireID()
-        self.$country.id = try country.requireID()
+        self.$place.id = try country.requireID()
     }
     
 }
@@ -45,9 +45,9 @@ struct GoogleDataPointMigration: Migration {
         database.schema(GoogleDataPoint.schema)
             .id()
             .field(.value, .int)
-            .field(.updatedAt, .double)
+            .field(.createdAt, .double)
             .field(.trendId, .uuid, .references(TrendItem.schema, .id))
-            .field(.countryId, .int32, .references(Place.schema, .id))
+            .field(.placeId, .int32, .references(Place.schema, .id))
             .create()
     }
     
