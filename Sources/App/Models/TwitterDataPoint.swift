@@ -32,6 +32,13 @@ final class TwitterDataPoint: Model {
         self.value = value
     }
     
+    init(trend: TrendItem, placeId: Int32, value: Int) throws {
+        self.$trend.id = try trend.requireID()
+        self.$place.id = placeId
+        self.createdAt = Date().timeIntervalSince1970
+        self.value = value
+    }
+    
 }
 
 struct TwitterDataPointMigration: Migration {
@@ -79,7 +86,7 @@ struct TopTrendModel: Content {
 
 struct TwitterDataPointDAO {
     
-    func insert(place: Place, points: [TwitterTrend], in db: Database) -> EventLoopFuture<[TwitterDataPoint]> {
+    func insert(placeId: Int32, points: [TwitterTrend], in db: Database) -> EventLoopFuture<[TwitterDataPoint]> {
         let trendNames = Set(points.map { $0.name })
         return TrendItemDAO().findOrCreate(trends: Array(trendNames), in: db).flatMap { (items) -> EventLoopFuture<[TwitterDataPoint]> in
             let itemMap = Dictionary(grouping: items) { (trend) -> String in
@@ -88,7 +95,7 @@ struct TwitterDataPointDAO {
             
             let dataPoints = points.map { (trend) -> TwitterDataPoint in
                 let dbTrend = itemMap[trend.name.lowercased()]!
-                return try! TwitterDataPoint(trend: dbTrend, place: place, value: trend.tweet_volume ?? 0)
+                return try! TwitterDataPoint(trend: dbTrend, placeId: placeId, value: trend.tweet_volume ?? 0)
             }
             
             return dataPoints.map { $0.insert(on: db)}.flatten(on: db.eventLoop)

@@ -27,6 +27,18 @@ struct TwitterJobData: Codable {
         
     }
     
+    var nextPlace: Int32 {
+        var best: Int32 = 1
+        var bestValue: TimeInterval = Date().timeIntervalSince1970
+        for (key,value) in lastUpdates {
+            if value < bestValue {
+                best = key
+                bestValue = value
+            }
+        }
+        return best
+    }
+    
 }
 
 struct GoogleJobData: Codable {

@@ -18,9 +18,6 @@ public final class Place: Model, Content {
     @Field(key: .countryCode)
     public var countryCode: String?
     
-    @Field(key: .updatedAt)
-    var lastUpdate: Double
-    
     @OptionalParent(key: .countryId)
     var country: Place?
 
@@ -30,7 +27,6 @@ public final class Place: Model, Content {
         self.name = name
         self.countryCode = countryCode
         self.id = woeid
-        self.lastUpdate = Date().timeIntervalSince1970
         self.$country.id = country?.id
     }
        
@@ -43,7 +39,6 @@ public struct PlaceMigration: Migration {
             .field(.id, .int32, .identifier(auto: false))
             .field(.name, .string, .required)
             .field(.countryCode, .string)
-            .field(.updatedAt, .double)
             .field(.countryId, .int32, .references(Place.schema, .id))
             .create()
     }
