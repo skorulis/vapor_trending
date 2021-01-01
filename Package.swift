@@ -35,7 +35,6 @@ let package = Package(
             ]
         ),
         .target(name: "MainAPI", dependencies: [.target(name: "App")]),
-        .target(name: "DataFetcher", dependencies: [.target(name: "App")]),
         .testTarget(name: "AppTests", dependencies: [
             .target(name: "App"),
             .product(name: "XCTVapor", package: "vapor"),
